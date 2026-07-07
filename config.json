@@ -2,6 +2,7 @@
   "topN": 50,
   "risingThreshold": 10,
   "newReleaseDays": 14,
+  "dashboardUrl": "https://pyungkanghong094.github.io/android-ios-rank/",
   "countries": ["kr", "us"],
   "apple": {
     "charts": ["top-free", "top-paid"]

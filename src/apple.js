@@ -1,6 +1,8 @@
 // 애플 공식 마케팅 RSS — 무료, 인증 불필요, 스키마 안정적
 // https://rss.marketingtools.apple.com/api/v2/{country}/apps/{chart}/{limit}/apps.json
 
+import { withRetry } from './util.js';
+
 export async function fetchAppleChart(country, chart, limit) {
   const url = `https://rss.marketingtools.apple.com/api/v2/${country}/apps/${chart}/${limit}/apps.json`;
   const res = await fetch(url);
@@ -22,7 +24,7 @@ export async function collectApple(config) {
     for (const chart of config.apple.charts) {
       const key = `apple:${country}:${chart}`;
       try {
-        charts[key] = await fetchAppleChart(country, chart, config.topN);
+        charts[key] = await withRetry(() => fetchAppleChart(country, chart, config.topN));
         console.log(`[apple] ${key} — ${charts[key].length}개`);
       } catch (e) {
         console.error(`[apple] ${key} 실패: ${e.message}`);

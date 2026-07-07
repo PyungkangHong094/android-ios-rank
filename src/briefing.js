@@ -25,7 +25,7 @@ function line(app) {
   return `  ${app.rank}위 ${app.name}${fresh}`;
 }
 
-export function buildBriefing(diffs, dateStr, { maxPerSection = 5 } = {}) {
+export function buildBriefing(diffs, dateStr, { maxPerSection = 5, dashboardUrl = null } = {}) {
   const out = [`📊 앱마켓 데일리 브리핑 — ${dateStr}`];
   let hasSignal = false;
 
@@ -55,5 +55,6 @@ export function buildBriefing(diffs, dateStr, { maxPerSection = 5 } = {}) {
   }
 
   if (!hasSignal && out.length === 1) out.push('\n오늘은 특이 변동 없음 ✨');
+  if (dashboardUrl) out.push(`\n📈 전체 순위 보기: ${dashboardUrl}`);
   return out.join('\n');
 }

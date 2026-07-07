@@ -5,7 +5,7 @@ import { readFile, writeFile, readdir, mkdir } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 import { collectApple } from './apple.js';
-import { collectPlay } from './play.js';
+import { collectPlay, enrichPlayNewEntries } from './play.js';
 import { diffSnapshots } from './diff.js';
 import { buildBriefing } from './briefing.js';
 import { sendTelegram } from './telegram.js';
@@ -44,15 +44,17 @@ if (collected === 0) {
   process.exit(1);
 }
 
+const yesterday = await loadLatestSnapshot(today);
+const diffs = diffSnapshots(snapshot, yesterday, config, now);
+await enrichPlayNewEntries(diffs, snapshot, { newReleaseDays: config.newReleaseDays, now });
+
 await mkdir(DATA_DIR, { recursive: true });
 await writeFile(path.join(DATA_DIR, `${today}.json`), JSON.stringify(snapshot, null, 2));
 const dates = (await readdir(DATA_DIR)).filter((f) => /^\d{4}-\d{2}-\d{2}\.json$/.test(f)).map((f) => f.slice(0, 10)).sort();
 await writeFile(path.join(DATA_DIR, 'index.json'), JSON.stringify(dates));
 console.log(`스냅샷 저장: data/${today}.json (${collected}개 차트)`);
 
-const yesterday = await loadLatestSnapshot(today);
-const diffs = diffSnapshots(snapshot, yesterday, config, now);
-const briefing = buildBriefing(diffs, today);
+const briefing = buildBriefing(diffs, today, { dashboardUrl: config.dashboardUrl });
 
 console.log('\n----- 브리핑 -----\n' + briefing + '\n------------------');
 

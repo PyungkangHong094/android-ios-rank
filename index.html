@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>앱마켓 순위 브리핑</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📊</text></svg>">
 <style>
   :root {
     --page: #f9f9f7; --surface: #fcfcfb; --ink: #0b0b0b; --ink-2: #52514e;
@@ -28,10 +29,15 @@
   h1 { font-size: 22px; font-weight: 700; }
   .sub { color: var(--muted); font-size: 13px; }
   .filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px; }
-  select {
+  select, input[type="search"], .navbtn {
     background: var(--surface); color: var(--ink); border: 1px solid var(--border);
     border-radius: 8px; padding: 6px 10px; font: inherit; font-size: 14px;
   }
+  input[type="search"] { flex: 1; min-width: 160px; }
+  .navbtn { cursor: pointer; }
+  .navbtn:disabled { opacity: 0.35; cursor: default; }
+  footer { margin-top: 32px; color: var(--muted); font-size: 12px; text-align: center; }
+  footer a { color: inherit; }
   .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin-bottom: 24px; }
   .tile { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 14px 16px; }
   .tile .num { font-size: 28px; font-weight: 700; font-variant-numeric: tabular-nums; }
@@ -73,7 +79,9 @@
     <span class="sub" id="compareNote"></span>
   </header>
   <div class="filters">
+    <button class="navbtn" id="prevBtn" aria-label="이전 날짜">◀</button>
     <select id="dateSel" aria-label="날짜"></select>
+    <button class="navbtn" id="nextBtn" aria-label="다음 날짜">▶</button>
     <select id="storeSel" aria-label="스토어">
       <option value="">전체 스토어</option>
       <option value="apple">🍎 앱스토어</option>
@@ -84,10 +92,12 @@
       <option value="kr">🇰🇷 한국</option>
       <option value="us">🇺🇸 미국</option>
     </select>
+    <input type="search" id="searchBox" placeholder="🔍 앱 이름 검색" aria-label="앱 검색">
   </div>
   <div class="tiles" id="tiles"></div>
   <div class="note" id="note"></div>
   <div class="cards" id="cards"></div>
+  <footer>매일 09:00 KST 자동 수집 · <a href="https://github.com/PyungkangHong094/android-ios-rank" target="_blank" rel="noopener">GitHub</a> · 애플 공식 RSS + 플레이스토어 크롤링</footer>
 </div>
 <script>
 const CHART_LABEL = { 'top-free': '무료', 'top-paid': '유료', 'top-grossing': '매출' };
@@ -105,13 +115,15 @@ function chartTitle(key) {
   return parts.join(' ');
 }
 
-function diffChart(today, yesterday, threshold) {
+function diffChart(today, yesterday, threshold, nowTs) {
   if (!today) return null;
   const prev = new Map((yesterday ?? []).map((a) => [a.id, a.rank]));
   const hasBaseline = yesterday != null;
   const entries = today.map((app) => {
     const p = prev.get(app.id);
-    return { ...app, prevRank: p ?? null, delta: p != null ? p - app.rank : null, isNew: hasBaseline && p == null };
+    const isNew = hasBaseline && p == null;
+    const isFresh = isNew && app.releaseDate && (nowTs - new Date(app.releaseDate).getTime()) / 86400000 <= NEW_DAYS;
+    return { ...app, prevRank: p ?? null, delta: p != null ? p - app.rank : null, isNew, isFresh };
   });
   return {
     hasBaseline,
@@ -123,7 +135,7 @@ function diffChart(today, yesterday, threshold) {
 }
 
 function badge(app) {
-  if (app.isNew) return '<span class="badge new">NEW</span>';
+  if (app.isNew) return `<span class="badge new">${app.isFresh ? '🔥신작' : 'NEW'}</span>`;
   if (app.delta == null) return '';
   if (app.delta > 0) return `<span class="badge up">▲${app.delta}</span>`;
   if (app.delta < 0) return `<span class="badge down">▼${-app.delta}</span>`;
@@ -141,7 +153,7 @@ function section(title, apps, max = 5) {
   return `<div class="sec"><div class="sec-title">${title} ${apps.length}개${more}</div><ul class="apps">${apps.slice(0, max).map(appLi).join('')}</ul></div>`;
 }
 
-let DATES = [], THRESHOLD = 10;
+let DATES = [], THRESHOLD = 10, NEW_DAYS = 14;
 
 async function fetchJSON(url) {
   const res = await fetch(url, { cache: 'no-store' });
@@ -153,7 +165,11 @@ async function render() {
   const date = $('dateSel').value;
   const storeF = $('storeSel').value;
   const countryF = $('countrySel').value;
+  const query = $('searchBox').value.trim().toLowerCase();
   const prevDate = DATES.filter((d) => d < date).pop() ?? null;
+  const idx = DATES.indexOf(date);
+  $('prevBtn').disabled = idx <= 0;
+  $('nextBtn').disabled = idx >= DATES.length - 1;
   $('compareNote').textContent = prevDate ? `${date} · 전일(${prevDate}) 대비` : `${date} · 비교할 전일 데이터 없음`;
 
   const [snap, prevSnap] = await Promise.all([
@@ -167,10 +183,16 @@ async function render() {
     const [store, country] = key.split(':');
     if (storeF && store !== storeF) continue;
     if (countryF && country !== countryF) continue;
-    const d = diffChart(chart, prevSnap?.[key] ?? null, THRESHOLD);
+    const d = diffChart(chart, prevSnap?.[key] ?? null, THRESHOLD, new Date(date).getTime() + 86400000);
     let body;
     if (d == null) {
+      if (query) continue;
       body = '<div class="fail">⚠️ 이날 수집 실패</div>';
+    } else if (query) {
+      const matched = d.entries.filter((a) => a.name.toLowerCase().includes(query));
+      totNew += d.newEntries.length; totUp += d.rising.length; totDown += d.falling.length;
+      if (!matched.length) continue;
+      body = `<div class="sec"><div class="sec-title">🔍 검색 결과 ${matched.length}개</div><ul class="apps">${matched.slice(0, 20).map(appLi).join('')}</ul></div>`;
     } else {
       totNew += d.newEntries.length; totUp += d.rising.length; totDown += d.falling.length;
       const secs = section('🆕 신규 진입', d.newEntries) + section('🚀 급등', d.rising) + section('📉 급락', d.falling);
@@ -187,17 +209,26 @@ async function render() {
     ['신규 진입', totNew], ['급등', totUp], ['급락', totDown],
   ].map(([lbl, n]) => `<div class="tile"><div class="num">${n}</div><div class="lbl">${lbl} (${THRESHOLD}계단 기준)</div></div>`).join('');
   $('note').textContent = prevSnap ? '' : '전일 스냅샷이 없어 변동 감지 없이 순위만 표시합니다.';
-  $('cards').innerHTML = cards.join('');
+  $('cards').innerHTML = cards.join('') || '<div class="empty">표시할 결과가 없습니다.</div>';
 }
 
 async function init() {
   try {
     const cfg = await fetchJSON('config.json').catch(() => null);
     if (cfg?.risingThreshold) THRESHOLD = cfg.risingThreshold;
+    if (cfg?.newReleaseDays) NEW_DAYS = cfg.newReleaseDays;
     DATES = (await fetchJSON('data/index.json')).sort();
     $('dateSel').innerHTML = [...DATES].reverse().map((d) => `<option value="${d}">${d}</option>`).join('');
     $('dateSel').value = DATES[DATES.length - 1];
     for (const id of ['dateSel', 'storeSel', 'countrySel']) $(id).addEventListener('change', render);
+    let t;
+    $('searchBox').addEventListener('input', () => { clearTimeout(t); t = setTimeout(render, 200); });
+    const step = (dir) => {
+      const i = DATES.indexOf($('dateSel').value) + dir;
+      if (i >= 0 && i < DATES.length) { $('dateSel').value = DATES[i]; render(); }
+    };
+    $('prevBtn').addEventListener('click', () => step(-1));
+    $('nextBtn').addEventListener('click', () => step(1));
     await render();
   } catch (e) {
     $('note').textContent = `데이터 로드 실패: ${e.message}`;
