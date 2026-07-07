@@ -4118,19 +4118,19 @@
     },
     {
       "rank": 13,
-      "id": "com.pandora.android",
-      "name": "Pandora - Music & Podcasts",
-      "developer": "Pandora",
-      "releaseDate": null,
-      "url": "https://play.google.com/store/apps/details?id=com.pandora.android"
-    },
-    {
-      "rank": 14,
       "id": "com.disney.disneyplus",
       "name": "Disney+",
       "developer": "Disney",
       "releaseDate": null,
       "url": "https://play.google.com/store/apps/details?id=com.disney.disneyplus"
+    },
+    {
+      "rank": 14,
+      "id": "com.pandora.android",
+      "name": "Pandora - Music & Podcasts",
+      "developer": "Pandora",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.pandora.android"
     },
     {
       "rank": 15,
