@@ -18,6 +18,10 @@
 - 애플: `rss.marketingtools.apple.com` 공식 피드 — 안 깨짐
 - 플레이: 스크래핑이라 깨질 수 있음 — 차트 단위로 격리돼 있어 깨져도 애플 브리핑은 계속 옴
 
+## 웹 대시보드
+
+https://pyungkanghong094.github.io/android-ios-rank/ — GitHub Pages가 repo의 `index.html`과 `data/*.json`을 그대로 서빙. 날짜/스토어/국가 필터로 신규 진입·급등·급락과 Top 50 전체를 볼 수 있고, 스냅샷이 커밋될 때마다 자동 갱신됨 (별도 빌드·서버 없음).
+
 ## 설정 (최초 1회)
 
 1. **텔레그램 봇 만들기**: 텔레그램에서 [@BotFather](https://t.me/BotFather) → `/newbot` → 토큰 복사
