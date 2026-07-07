@@ -1,0 +1,13 @@
+{
+  "name": "rank-android-ios",
+  "version": "1.0.0",
+  "description": "앱스토어/플레이스토어 순위 급등 데일리 브리핑",
+  "type": "module",
+  "scripts": {
+    "briefing": "node src/index.js",
+    "briefing:dry": "node src/index.js --dry-run"
+  },
+  "dependencies": {
+    "google-play-scraper": "^10.0.0"
+  }
+}

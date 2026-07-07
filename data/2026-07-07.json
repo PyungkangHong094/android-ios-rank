@@ -1,0 +1,4826 @@
+{
+  "apple:kr:top-free": [
+    {
+      "rank": 1,
+      "id": "6743190232",
+      "name": "하나은행, 새로워진 하나원큐를 경험해 보세요",
+      "developer": "Hana Bank",
+      "releaseDate": "2026-02-18",
+      "url": "https://apps.apple.com/kr/app/%ED%95%98%EB%82%98%EC%9D%80%ED%96%89-%EC%83%88%EB%A1%9C%EC%9B%8C%EC%A7%84-%ED%95%98%EB%82%98%EC%9B%90%ED%81%90%EB%A5%BC-%EA%B2%BD%ED%97%98%ED%95%B4-%EB%B3%B4%EC%84%B8%EC%9A%94/id6743190232"
+    },
+    {
+      "rank": 2,
+      "id": "6780200289",
+      "name": "왁뿌볼 | 왁스 뿌시기 볼",
+      "developer": "Seonwook Kim",
+      "releaseDate": "2026-06-17",
+      "url": "https://apps.apple.com/kr/app/%EC%99%81%EB%BF%8C%EB%B3%BC-%EC%99%81%EC%8A%A4-%EB%BF%8C%EC%8B%9C%EA%B8%B0-%EB%B3%BC/id6780200289"
+    },
+    {
+      "rank": 3,
+      "id": "1598850912",
+      "name": "땡겨요",
+      "developer": "SHINHAN BANK",
+      "releaseDate": "2021-12-28",
+      "url": "https://apps.apple.com/kr/app/%EB%95%A1%EA%B2%A8%EC%9A%94/id1598850912"
+    },
+    {
+      "rank": 4,
+      "id": "681752345",
+      "name": "Trip.com 트립닷컴 - 여행 할인 예약",
+      "developer": "Trip.com Travel Singapore Pte. Ltd.",
+      "releaseDate": "2013-08-05",
+      "url": "https://apps.apple.com/kr/app/trip-com-%ED%8A%B8%EB%A6%BD%EB%8B%B7%EC%BB%B4-%EC%97%AC%ED%96%89-%ED%95%A0%EC%9D%B8-%EC%98%88%EC%95%BD/id681752345"
+    },
+    {
+      "rank": 5,
+      "id": "6477489729",
+      "name": "Google Gemini",
+      "developer": "Google",
+      "releaseDate": "2024-11-13",
+      "url": "https://apps.apple.com/kr/app/google-gemini/id6477489729"
+    },
+    {
+      "rank": 6,
+      "id": "6473753684",
+      "name": "Claude by Anthropic",
+      "developer": "Anthropic PBC",
+      "releaseDate": "2024-05-01",
+      "url": "https://apps.apple.com/kr/app/claude-by-anthropic/id6473753684"
+    },
+    {
+      "rank": 7,
+      "id": "379577046",
+      "name": "모니모(삼성금융통합앱) 생명 화재 카드 증권",
+      "developer": "Samsungcard Co., Ltd.",
+      "releaseDate": "2010-07-23",
+      "url": "https://apps.apple.com/kr/app/%EB%AA%A8%EB%8B%88%EB%AA%A8-%EC%82%BC%EC%84%B1%EA%B8%88%EC%9C%B5%ED%86%B5%ED%95%A9%EC%95%B1-%EC%83%9D%EB%AA%85-%ED%99%94%EC%9E%AC-%EC%B9%B4%EB%93%9C-%EC%A6%9D%EA%B6%8C/id379577046"
+    },
+    {
+      "rank": 8,
+      "id": "6504849169",
+      "name": "NetShort - 인기 드라마 및 TV 프로그램",
+      "developer": "NETSTORY PTE. LTD.",
+      "releaseDate": "2024-07-13",
+      "url": "https://apps.apple.com/kr/app/netshort-%EC%9D%B8%EA%B8%B0-%EB%93%9C%EB%9D%BC%EB%A7%88-%EB%B0%8F-tv-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8/id6504849169"
+    },
+    {
+      "rank": 9,
+      "id": "357484932",
+      "name": "신한 슈퍼SOL - 신한 유니버셜 금융 앱",
+      "developer": "SHINHAN BANK",
+      "releaseDate": "2010-03-09",
+      "url": "https://apps.apple.com/kr/app/%EC%8B%A0%ED%95%9C-%EC%8A%88%ED%8D%BCsol-%EC%8B%A0%ED%95%9C-%EC%9C%A0%EB%8B%88%EB%B2%84%EC%85%9C-%EA%B8%88%EC%9C%B5-%EC%95%B1/id357484932"
+    },
+    {
+      "rank": 10,
+      "id": "1538531939",
+      "name": "K-패스",
+      "developer": "교통안전공단",
+      "releaseDate": "2020-11-11",
+      "url": "https://apps.apple.com/kr/app/k-%ED%8C%A8%EC%8A%A4/id1538531939"
+    },
+    {
+      "rank": 11,
+      "id": "373053637",
+      "name": "제주항공",
+      "developer": "Jeju Air. co., Ltd",
+      "releaseDate": "2010-05-21",
+      "url": "https://apps.apple.com/kr/app/%EC%A0%9C%EC%A3%BC%ED%95%AD%EA%B3%B5/id373053637"
+    },
+    {
+      "rank": 12,
+      "id": "1509453185",
+      "name": "TeraBox: 1TB 클라우드 저장소 & AI 공간",
+      "developer": "FLEXTECH INC.",
+      "releaseDate": "2020-04-29",
+      "url": "https://apps.apple.com/kr/app/terabox-1tb-%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%EC%A0%80%EC%9E%A5%EC%86%8C-ai-%EA%B3%B5%EA%B0%84/id1509453185"
+    },
+    {
+      "rank": 13,
+      "id": "6462396737",
+      "name": "LH청약플러스",
+      "developer": "한국토지주택공사",
+      "releaseDate": "2023-08-27",
+      "url": "https://apps.apple.com/kr/app/lh%EC%B2%AD%EC%95%BD%ED%94%8C%EB%9F%AC%EC%8A%A4/id6462396737"
+    },
+    {
+      "rank": 14,
+      "id": "1585297308",
+      "name": "치지직",
+      "developer": "NAVER Corp.",
+      "releaseDate": "2021-10-17",
+      "url": "https://apps.apple.com/kr/app/%EC%B9%98%EC%A7%80%EC%A7%81/id1585297308"
+    },
+    {
+      "rank": 15,
+      "id": "1599450372",
+      "name": "대한민국 모바일 신분증",
+      "developer": "행정안전부",
+      "releaseDate": "2022-01-18",
+      "url": "https://apps.apple.com/kr/app/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD-%EB%AA%A8%EB%B0%94%EC%9D%BC-%EC%8B%A0%EB%B6%84%EC%A6%9D/id1599450372"
+    },
+    {
+      "rank": 16,
+      "id": "6444602589",
+      "name": "모바일 건강보험증",
+      "developer": "국민건강보험공단",
+      "releaseDate": "2023-03-13",
+      "url": "https://apps.apple.com/kr/app/%EB%AA%A8%EB%B0%94%EC%9D%BC-%EA%B1%B4%EA%B0%95%EB%B3%B4%ED%97%98%EC%A6%9D/id6444602589"
+    },
+    {
+      "rank": 17,
+      "id": "6738896323",
+      "name": "CGV",
+      "developer": "CJ CGV Co.ltd",
+      "releaseDate": "2025-07-14",
+      "url": "https://apps.apple.com/kr/app/cgv/id6738896323"
+    },
+    {
+      "rank": 18,
+      "id": "375279377",
+      "name": "건강보험25시",
+      "developer": "국민건강보험공단",
+      "releaseDate": "2010-06-01",
+      "url": "https://apps.apple.com/kr/app/%EA%B1%B4%EA%B0%95%EB%B3%B4%ED%97%9825%EC%8B%9C/id375279377"
+    },
+    {
+      "rank": 19,
+      "id": "6448703854",
+      "name": "집지켜: 행복주택을 가장 쉽게",
+      "developer": "플다 주식회사",
+      "releaseDate": "2023-05-02",
+      "url": "https://apps.apple.com/kr/app/%EC%A7%91%EC%A7%80%EC%BC%9C-%ED%96%89%EB%B3%B5%EC%A3%BC%ED%83%9D%EC%9D%84-%EA%B0%80%EC%9E%A5-%EC%89%BD%EA%B2%8C/id6448703854"
+    },
+    {
+      "rank": 20,
+      "id": "570060128",
+      "name": "듀오링고(Duolingo): 언어 학습",
+      "developer": "Duolingo",
+      "releaseDate": "2012-11-13",
+      "url": "https://apps.apple.com/kr/app/%EB%93%80%EC%98%A4%EB%A7%81%EA%B3%A0-duolingo-%EC%96%B8%EC%96%B4-%ED%95%99%EC%8A%B5/id570060128"
+    },
+    {
+      "rank": 21,
+      "id": "1554807824",
+      "name": "네이버페이",
+      "developer": "Naver Financial Corporation",
+      "releaseDate": "2021-08-06",
+      "url": "https://apps.apple.com/kr/app/%EB%84%A4%EC%9D%B4%EB%B2%84%ED%8E%98%EC%9D%B4/id1554807824"
+    },
+    {
+      "rank": 22,
+      "id": "6751875525",
+      "name": "겸사겸사",
+      "developer": "PINCRUX",
+      "releaseDate": "2025-12-14",
+      "url": "https://apps.apple.com/kr/app/%EA%B2%B8%EC%82%AC%EA%B2%B8%EC%82%AC/id6751875525"
+    },
+    {
+      "rank": 23,
+      "id": "1070715498",
+      "name": "다이소몰",
+      "developer": "ASUNGDAISO, Co.,Ltd.",
+      "releaseDate": "2016-02-03",
+      "url": "https://apps.apple.com/kr/app/%EB%8B%A4%EC%9D%B4%EC%86%8C%EB%AA%B0/id1070715498"
+    },
+    {
+      "rank": 24,
+      "id": "387363739",
+      "name": "CJ ONE",
+      "developer": "CJ OliveNetworks Co., Ltd.",
+      "releaseDate": "2010-09-06",
+      "url": "https://apps.apple.com/kr/app/cj-one/id387363739"
+    },
+    {
+      "rank": 25,
+      "id": "6553966660",
+      "name": "실손24",
+      "developer": "Korean Insurance Development Institute Inc.",
+      "releaseDate": "2024-09-30",
+      "url": "https://apps.apple.com/kr/app/%EC%8B%A4%EC%86%9024/id6553966660"
+    },
+    {
+      "rank": 26,
+      "id": "6738372450",
+      "name": "디지털온누리",
+      "developer": "한국조폐공사",
+      "releaseDate": "2025-02-27",
+      "url": "https://apps.apple.com/kr/app/%EB%94%94%EC%A7%80%ED%84%B8%EC%98%A8%EB%88%84%EB%A6%AC/id6738372450"
+    },
+    {
+      "rank": 27,
+      "id": "572462317",
+      "name": "신한 SOL페이 - 신한카드 대표플랫폼",
+      "developer": "Shinhan Card Co., Ltd.",
+      "releaseDate": "2012-11-05",
+      "url": "https://apps.apple.com/kr/app/%EC%8B%A0%ED%95%9C-sol%ED%8E%98%EC%9D%B4-%EC%8B%A0%ED%95%9C%EC%B9%B4%EB%93%9C-%EB%8C%80%ED%91%9C%ED%94%8C%EB%9E%AB%ED%8F%BC/id572462317"
+    },
+    {
+      "rank": 28,
+      "id": "1222822904",
+      "name": "SmartThings",
+      "developer": "Samsung Electronics Co., Ltd.",
+      "releaseDate": "2017-06-20",
+      "url": "https://apps.apple.com/kr/app/smartthings/id1222822904"
+    },
+    {
+      "rank": 29,
+      "id": "6587576438",
+      "name": "setlog",
+      "developer": "new chat",
+      "releaseDate": "2025-12-24",
+      "url": "https://apps.apple.com/kr/app/setlog/id6587576438"
+    },
+    {
+      "rank": 30,
+      "id": "6448311069",
+      "name": "ChatGPT",
+      "developer": "OpenAI OpCo, LLC",
+      "releaseDate": "2023-05-24",
+      "url": "https://apps.apple.com/kr/app/chatgpt/id6448311069"
+    },
+    {
+      "rank": 31,
+      "id": "1470361790",
+      "name": "모바일티머니",
+      "developer": "Tmoney Co., Ltd",
+      "releaseDate": "2020-03-29",
+      "url": "https://apps.apple.com/kr/app/%EB%AA%A8%EB%B0%94%EC%9D%BC%ED%8B%B0%EB%A8%B8%EB%8B%88/id1470361790"
+    },
+    {
+      "rank": 32,
+      "id": "1500855883",
+      "name": "CapCut: 사진 및 동영상 에디터",
+      "developer": "Bytedance Pte. Ltd",
+      "releaseDate": "2020-04-14",
+      "url": "https://apps.apple.com/kr/app/capcut-%EC%82%AC%EC%A7%84-%EB%B0%8F-%EB%8F%99%EC%98%81%EC%83%81-%EC%97%90%EB%94%94%ED%84%B0/id1500855883"
+    },
+    {
+      "rank": 33,
+      "id": "586454505",
+      "name": "정부24(구 민원24)",
+      "developer": "행정안전부",
+      "releaseDate": "2013-01-07",
+      "url": "https://apps.apple.com/kr/app/%EC%A0%95%EB%B6%8024-%EA%B5%AC-%EB%AF%BC%EC%9B%9024/id586454505"
+    },
+    {
+      "rank": 34,
+      "id": "6478366140",
+      "name": "고용24(Work24)",
+      "developer": "한국고용정보원",
+      "releaseDate": "2024-04-01",
+      "url": "https://apps.apple.com/kr/app/%EA%B3%A0%EC%9A%A924-work24/id6478366140"
+    },
+    {
+      "rank": 35,
+      "id": "1489115591",
+      "name": "국방모바일보안(외부인)",
+      "developer": "Ministry of National Defense - Republic of Korea",
+      "releaseDate": "2019-11-27",
+      "url": "https://apps.apple.com/kr/app/%EA%B5%AD%EB%B0%A9%EB%AA%A8%EB%B0%94%EC%9D%BC%EB%B3%B4%EC%95%88-%EC%99%B8%EB%B6%80%EC%9D%B8/id1489115591"
+    },
+    {
+      "rank": 36,
+      "id": "1321282064",
+      "name": "내 곁에 국민연금",
+      "developer": "국민연금공단",
+      "releaseDate": "2018-02-21",
+      "url": "https://apps.apple.com/kr/app/%EB%82%B4-%EA%B3%81%EC%97%90-%EA%B5%AD%EB%AF%BC%EC%97%B0%EA%B8%88/id1321282064"
+    },
+    {
+      "rank": 37,
+      "id": "6446901002",
+      "name": "Threads",
+      "developer": "Instagram, Inc.",
+      "releaseDate": "2023-07-05",
+      "url": "https://apps.apple.com/kr/app/threads/id6446901002"
+    },
+    {
+      "rank": 38,
+      "id": "1464496236",
+      "name": "카카오페이",
+      "developer": "kakaopay corp.",
+      "releaseDate": "2019-05-28",
+      "url": "https://apps.apple.com/kr/app/%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%8E%98%EC%9D%B4/id1464496236"
+    },
+    {
+      "rank": 39,
+      "id": "993504342",
+      "name": "LG ThinQ",
+      "developer": "LG Electronics, Inc.",
+      "releaseDate": "2016-07-18",
+      "url": "https://apps.apple.com/kr/app/lg-thinq/id993504342"
+    },
+    {
+      "rank": 40,
+      "id": "842849113",
+      "name": "Google Sheets",
+      "developer": "Google",
+      "releaseDate": "2014-04-30",
+      "url": "https://apps.apple.com/kr/app/google-sheets/id842849113"
+    },
+    {
+      "rank": 41,
+      "id": "6760746488",
+      "name": "전북대학교 JUMP",
+      "developer": "Jeonbuk National University",
+      "releaseDate": "2026-07-03",
+      "url": "https://apps.apple.com/kr/app/%EC%A0%84%EB%B6%81%EB%8C%80%ED%95%99%EA%B5%90-jump/id6760746488"
+    },
+    {
+      "rank": 42,
+      "id": "1485193566",
+      "name": "캐치테이블",
+      "developer": "WADcorp",
+      "releaseDate": "2019-12-12",
+      "url": "https://apps.apple.com/kr/app/%EC%BA%90%EC%B9%98%ED%85%8C%EC%9D%B4%EB%B8%94/id1485193566"
+    },
+    {
+      "rank": 43,
+      "id": "1473428031",
+      "name": "메가MGC커피",
+      "developer": "Annhouse Co., Ltd",
+      "releaseDate": "2019-08-02",
+      "url": "https://apps.apple.com/kr/app/%EB%A9%94%EA%B0%80mgc%EC%BB%A4%ED%94%BC/id1473428031"
+    },
+    {
+      "rank": 44,
+      "id": "1584940053",
+      "name": "나만의닥터 - 1위 비대면진료, 약국찾기, 병원예약 앱",
+      "developer": "merakiplace Inc.",
+      "releaseDate": "2021-11-01",
+      "url": "https://apps.apple.com/kr/app/%EB%82%98%EB%A7%8C%EC%9D%98%EB%8B%A5%ED%84%B0-1%EC%9C%84-%EB%B9%84%EB%8C%80%EB%A9%B4%EC%A7%84%EB%A3%8C-%EC%95%BD%EA%B5%AD%EC%B0%BE%EA%B8%B0-%EB%B3%91%EC%9B%90%EC%98%88%EC%95%BD-%EC%95%B1/id1584940053"
+    },
+    {
+      "rank": 45,
+      "id": "6739505769",
+      "name": "Shardee 샤디 | mini vlog camera",
+      "developer": "DIARO",
+      "releaseDate": "2024-12-20",
+      "url": "https://apps.apple.com/kr/app/shardee-%EC%83%A4%EB%94%94-mini-vlog-camera/id6739505769"
+    },
+    {
+      "rank": 46,
+      "id": "1513718380",
+      "name": "닥터나우 - 대한민국 1위 비대면진료 앱",
+      "developer": "Doctornow Co.,Ltd",
+      "releaseDate": "2020-06-26",
+      "url": "https://apps.apple.com/kr/app/%EB%8B%A5%ED%84%B0%EB%82%98%EC%9A%B0-%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD-1%EC%9C%84-%EB%B9%84%EB%8C%80%EB%A9%B4%EC%A7%84%EB%A3%8C-%EC%95%B1/id1513718380"
+    },
+    {
+      "rank": 47,
+      "id": "1641628055",
+      "name": "NH올원뱅크(농협은행 대표 플랫폼)",
+      "developer": "NH농협은행",
+      "releaseDate": "2023-01-27",
+      "url": "https://apps.apple.com/kr/app/nh%EC%98%AC%EC%9B%90%EB%B1%85%ED%81%AC-%EB%86%8D%ED%98%91%EC%9D%80%ED%96%89-%EB%8C%80%ED%91%9C-%ED%94%8C%EB%9E%AB%ED%8F%BC/id1641628055"
+    },
+    {
+      "rank": 48,
+      "id": "585027354",
+      "name": "Google Maps",
+      "developer": "Google",
+      "releaseDate": "2012-12-13",
+      "url": "https://apps.apple.com/kr/app/google-maps/id585027354"
+    },
+    {
+      "rank": 49,
+      "id": "440676901",
+      "name": "아고다: 모텔, 호텔, 항공권 특가",
+      "developer": "Agoda.com",
+      "releaseDate": "2011-06-07",
+      "url": "https://apps.apple.com/kr/app/%EC%95%84%EA%B3%A0%EB%8B%A4-%EB%AA%A8%ED%85%94-%ED%98%B8%ED%85%94-%ED%95%AD%EA%B3%B5%EA%B6%8C-%ED%8A%B9%EA%B0%80/id440676901"
+    },
+    {
+      "rank": 50,
+      "id": "426644449",
+      "name": "우리동네GS (GS25, GS더프레시, 와인25플러스)",
+      "developer": "GS Retail Co., Ltd.",
+      "releaseDate": "2011-03-24",
+      "url": "https://apps.apple.com/kr/app/%EC%9A%B0%EB%A6%AC%EB%8F%99%EB%84%A4gs-gs25-gs%EB%8D%94%ED%94%84%EB%A0%88%EC%8B%9C-%EC%99%80%EC%9D%B825%ED%94%8C%EB%9F%AC%EC%8A%A4/id426644449"
+    }
+  ],
+  "apple:kr:top-paid": [
+    {
+      "rank": 1,
+      "id": "6755822636",
+      "name": "GIKA 기카 - 독보적인 올드폰 감성 카메라",
+      "developer": "Noahproject Inc.",
+      "releaseDate": "2025-12-01",
+      "url": "https://apps.apple.com/kr/app/gika-%EA%B8%B0%EC%B9%B4-%EB%8F%85%EB%B3%B4%EC%A0%81%EC%9D%B8-%EC%98%AC%EB%93%9C%ED%8F%B0-%EA%B0%90%EC%84%B1-%EC%B9%B4%EB%A9%94%EB%9D%BC/id6755822636"
+    },
+    {
+      "rank": 2,
+      "id": "6763737180",
+      "name": "영뽀또 - 감성 구도 카메라",
+      "developer": "Seungyun Kim",
+      "releaseDate": "2026-06-26",
+      "url": "https://apps.apple.com/kr/app/%EC%98%81%EB%BD%80%EB%98%90-%EA%B0%90%EC%84%B1-%EA%B5%AC%EB%8F%84-%EC%B9%B4%EB%A9%94%EB%9D%BC/id6763737180"
+    },
+    {
+      "rank": 3,
+      "id": "6741474933",
+      "name": "베리필름 Berryfilm - 60만 팬이 사랑한 필터",
+      "developer": "Seungyun Kim",
+      "releaseDate": "2025-02-27",
+      "url": "https://apps.apple.com/kr/app/%EB%B2%A0%EB%A6%AC%ED%95%84%EB%A6%84-berryfilm-60%EB%A7%8C-%ED%8C%AC%EC%9D%B4-%EC%82%AC%EB%9E%91%ED%95%9C-%ED%95%84%ED%84%B0/id6741474933"
+    },
+    {
+      "rank": 4,
+      "id": "992047786",
+      "name": "Analog Wedding",
+      "developer": "ordinaryfactory Inc.",
+      "releaseDate": "2015-06-26",
+      "url": "https://apps.apple.com/kr/app/analog-wedding/id992047786"
+    },
+    {
+      "rank": 5,
+      "id": "6747307749",
+      "name": "CHAKK - 인스타 스토리 꾸미는 재미, 챡!",
+      "developer": "Gaeun Lee",
+      "releaseDate": "2025-06-24",
+      "url": "https://apps.apple.com/kr/app/chakk-%EC%9D%B8%EC%8A%A4%ED%83%80-%EC%8A%A4%ED%86%A0%EB%A6%AC-%EA%BE%B8%EB%AF%B8%EB%8A%94-%EC%9E%AC%EB%AF%B8-%EC%B1%A1/id6747307749"
+    },
+    {
+      "rank": 6,
+      "id": "6443723657",
+      "name": "filmhwa (필름화) - 화민 필터",
+      "developer": "ARTTIC CO., LTD.",
+      "releaseDate": "2022-11-09",
+      "url": "https://apps.apple.com/kr/app/filmhwa-%ED%95%84%EB%A6%84%ED%99%94-%ED%99%94%EB%AF%BC-%ED%95%84%ED%84%B0/id6443723657"
+    },
+    {
+      "rank": 7,
+      "id": "6760838876",
+      "name": "올디 Oldi - Phone Camera",
+      "developer": "Sean Cho",
+      "releaseDate": "2026-03-20",
+      "url": "https://apps.apple.com/kr/app/%EC%98%AC%EB%94%94-oldi-phone-camera/id6760838876"
+    },
+    {
+      "rank": 8,
+      "id": "6762279908",
+      "name": "DayGrid: 하루 계획표, 데일리스케줄, 시간표",
+      "developer": "ho young moon",
+      "releaseDate": "2026-04-26",
+      "url": "https://apps.apple.com/kr/app/daygrid-%ED%95%98%EB%A3%A8-%EA%B3%84%ED%9A%8D%ED%91%9C-%EB%8D%B0%EC%9D%BC%EB%A6%AC%EC%8A%A4%EC%BC%80%EC%A4%84-%EC%8B%9C%EA%B0%84%ED%91%9C/id6762279908"
+    },
+    {
+      "rank": 9,
+      "id": "1445502301",
+      "name": "한국사 능력",
+      "developer": "별책",
+      "releaseDate": "2019-01-14",
+      "url": "https://apps.apple.com/kr/app/%ED%95%9C%EA%B5%AD%EC%82%AC-%EB%8A%A5%EB%A0%A5/id1445502301"
+    },
+    {
+      "rank": 10,
+      "id": "6504206143",
+      "name": "无锐化相机",
+      "developer": "北北 宋",
+      "releaseDate": "2024-08-09",
+      "url": "https://apps.apple.com/kr/app/%E6%97%A0%E9%94%90%E5%8C%96%E7%9B%B8%E6%9C%BA/id6504206143"
+    },
+    {
+      "rank": 11,
+      "id": "6782047379",
+      "name": "PrinTodo",
+      "developer": "yedam lim",
+      "releaseDate": "2026-06-21",
+      "url": "https://apps.apple.com/kr/app/printodo/id6782047379"
+    },
+    {
+      "rank": 12,
+      "id": "373493387",
+      "name": "AnkiMobile Flashcards",
+      "developer": "Anki Software, LLC",
+      "releaseDate": "2010-05-27",
+      "url": "https://apps.apple.com/kr/app/ankimobile-flashcards/id373493387"
+    },
+    {
+      "rank": 13,
+      "id": "1455054515",
+      "name": "회독JLPT",
+      "developer": "LEE YONGHEE",
+      "releaseDate": "2019-03-07",
+      "url": "https://apps.apple.com/kr/app/%ED%9A%8C%EB%8F%85jlpt/id1455054515"
+    },
+    {
+      "rank": 14,
+      "id": "932747118",
+      "name": "Shadowrocket",
+      "developer": "Shadow Launch Technology Limited",
+      "releaseDate": "2015-04-14",
+      "url": "https://apps.apple.com/kr/app/shadowrocket/id932747118"
+    },
+    {
+      "rank": 15,
+      "id": "6782552700",
+      "name": "Keep-It-Fresh",
+      "developer": "Pui Yee Leong",
+      "releaseDate": "2026-07-02",
+      "url": "https://apps.apple.com/kr/app/keep-it-fresh/id6782552700"
+    },
+    {
+      "rank": 16,
+      "id": "6768642302",
+      "name": "릴티(Liltie) - 하루 한 곡 음악 다이어리",
+      "developer": "Seongsup Lee",
+      "releaseDate": "2026-05-12",
+      "url": "https://apps.apple.com/kr/app/%EB%A6%B4%ED%8B%B0-liltie-%ED%95%98%EB%A3%A8-%ED%95%9C-%EA%B3%A1-%EC%9D%8C%EC%95%85-%EB%8B%A4%EC%9D%B4%EC%96%B4%EB%A6%AC/id6768642302"
+    },
+    {
+      "rank": 17,
+      "id": "441683476",
+      "name": "위플 가계부 Pro",
+      "developer": "bumblebee",
+      "releaseDate": "2011-06-09",
+      "url": "https://apps.apple.com/kr/app/%EC%9C%84%ED%94%8C-%EA%B0%80%EA%B3%84%EB%B6%80-pro/id441683476"
+    },
+    {
+      "rank": 18,
+      "id": "6742218180",
+      "name": "희담필터",
+      "developer": "Seongmin Lee",
+      "releaseDate": "2025-03-03",
+      "url": "https://apps.apple.com/kr/app/%ED%9D%AC%EB%8B%B4%ED%95%84%ED%84%B0/id6742218180"
+    },
+    {
+      "rank": 19,
+      "id": "1046714401",
+      "name": "유니콘:Safari 광고 차단",
+      "developer": "OH NAM KWON",
+      "releaseDate": "2015-10-17",
+      "url": "https://apps.apple.com/kr/app/%EC%9C%A0%EB%8B%88%EC%BD%98-safari-%EA%B4%91%EA%B3%A0-%EC%B0%A8%EB%8B%A8/id1046714401"
+    },
+    {
+      "rank": 20,
+      "id": "6504192378",
+      "name": "B.ROLL [비롤] - 청춘 필터 카메라",
+      "developer": "FRONIS CO., LTD.",
+      "releaseDate": "2024-06-21",
+      "url": "https://apps.apple.com/kr/app/b-roll-%EB%B9%84%EB%A1%A4-%EC%B2%AD%EC%B6%98-%ED%95%84%ED%84%B0-%EC%B9%B4%EB%A9%94%EB%9D%BC/id6504192378"
+    },
+    {
+      "rank": 21,
+      "id": "1355481600",
+      "name": "박코치 학습기",
+      "developer": "Seokmin Lee",
+      "releaseDate": "2018-03-15",
+      "url": "https://apps.apple.com/kr/app/%EB%B0%95%EC%BD%94%EC%B9%98-%ED%95%99%EC%8A%B5%EA%B8%B0/id1355481600"
+    },
+    {
+      "rank": 22,
+      "id": "6746705608",
+      "name": "AutoSnore: 코골이 녹음기",
+      "developer": "Tantsissa",
+      "releaseDate": "2025-11-02",
+      "url": "https://apps.apple.com/kr/app/autosnore-%EC%BD%94%EA%B3%A8%EC%9D%B4-%EB%85%B9%EC%9D%8C%EA%B8%B0/id6746705608"
+    },
+    {
+      "rank": 23,
+      "id": "6498623389",
+      "name": "Folium",
+      "developer": "Jarrod Norwell",
+      "releaseDate": "2024-05-31",
+      "url": "https://apps.apple.com/kr/app/folium/id6498623389"
+    },
+    {
+      "rank": 24,
+      "id": "1241909999",
+      "name": "WorkOutDoors",
+      "developer": "CCS Ltd",
+      "releaseDate": "2017-07-13",
+      "url": "https://apps.apple.com/kr/app/workoutdoors/id1241909999"
+    },
+    {
+      "rank": 25,
+      "id": "1484507247",
+      "name": "회독TOEIC",
+      "developer": "LEE YONGHEE",
+      "releaseDate": "2019-10-29",
+      "url": "https://apps.apple.com/kr/app/%ED%9A%8C%EB%8F%85toeic/id1484507247"
+    },
+    {
+      "rank": 26,
+      "id": "1117998129",
+      "name": "Human Anatomy Atlas 2026",
+      "developer": "Visible Body Apps",
+      "releaseDate": "2016-07-28",
+      "url": "https://apps.apple.com/kr/app/human-anatomy-atlas-2026/id1117998129"
+    },
+    {
+      "rank": 27,
+      "id": "6758488182",
+      "name": "Tesla DashCam Viewer",
+      "developer": "Daily Prompt",
+      "releaseDate": "2026-02-09",
+      "url": "https://apps.apple.com/kr/app/tesla-dashcam-viewer/id6758488182"
+    },
+    {
+      "rank": 28,
+      "id": "304731501",
+      "name": "Tempo - Metronome 메트로놈",
+      "developer": "Frozen Ape Pte. Ltd.",
+      "releaseDate": "2009-02-13",
+      "url": "https://apps.apple.com/kr/app/tempo-metronome-%EB%A9%94%ED%8A%B8%EB%A1%9C%EB%86%88/id304731501"
+    },
+    {
+      "rank": 29,
+      "id": "1400792124",
+      "name": "ilSang Pro",
+      "developer": "ByungHo Yu",
+      "releaseDate": "2018-08-06",
+      "url": "https://apps.apple.com/kr/app/ilsang-pro/id1400792124"
+    },
+    {
+      "rank": 30,
+      "id": "1313164055",
+      "name": "EE35 Film Camera",
+      "developer": "EIGHTIVE DESIGN, Inc.",
+      "releaseDate": "2017-11-15",
+      "url": "https://apps.apple.com/kr/app/ee35-film-camera/id1313164055"
+    },
+    {
+      "rank": 31,
+      "id": "6762035374",
+      "name": "STICKERS - 손글씨 사진 꾸미기 스티커",
+      "developer": "DooHyun Jang",
+      "releaseDate": "2026-04-14",
+      "url": "https://apps.apple.com/kr/app/stickers-%EC%86%90%EA%B8%80%EC%94%A8-%EC%82%AC%EC%A7%84-%EA%BE%B8%EB%AF%B8%EA%B8%B0-%EC%8A%A4%ED%8B%B0%EC%BB%A4/id6762035374"
+    },
+    {
+      "rank": 32,
+      "id": "1035219562",
+      "name": "Analog Paris",
+      "developer": "ordinaryfactory Inc.",
+      "releaseDate": "2016-03-17",
+      "url": "https://apps.apple.com/kr/app/analog-paris/id1035219562"
+    },
+    {
+      "rank": 33,
+      "id": "916366645",
+      "name": "Procreate Pocket",
+      "developer": "Savage Interactive Pty Ltd",
+      "releaseDate": "2014-12-17",
+      "url": "https://apps.apple.com/kr/app/procreate-pocket/id916366645"
+    },
+    {
+      "rank": 34,
+      "id": "1449232260",
+      "name": "스팸패턴차단",
+      "developer": "YOUNG SUN ROH",
+      "releaseDate": "2019-01-15",
+      "url": "https://apps.apple.com/kr/app/%EC%8A%A4%ED%8C%B8%ED%8C%A8%ED%84%B4%EC%B0%A8%EB%8B%A8/id1449232260"
+    },
+    {
+      "rank": 35,
+      "id": "6757577312",
+      "name": "카네",
+      "developer": "sangku oh",
+      "releaseDate": "2026-01-16",
+      "url": "https://apps.apple.com/kr/app/%EC%B9%B4%EB%84%A4/id6757577312"
+    },
+    {
+      "rank": 36,
+      "id": "1116905928",
+      "name": "nPlayer",
+      "developer": "Newin Inc.",
+      "releaseDate": "2016-07-21",
+      "url": "https://apps.apple.com/kr/app/nplayer/id1116905928"
+    },
+    {
+      "rank": 37,
+      "id": "564730202",
+      "name": "편한가계부 (광고제거)",
+      "developer": "Realbyte Inc.",
+      "releaseDate": "2012-10-04",
+      "url": "https://apps.apple.com/kr/app/%ED%8E%B8%ED%95%9C%EA%B0%80%EA%B3%84%EB%B6%80-%EA%B4%91%EA%B3%A0%EC%A0%9C%EA%B1%B0/id564730202"
+    },
+    {
+      "rank": 38,
+      "id": "1449584007",
+      "name": "Koala Sampler • Beat Maker",
+      "developer": "Mazbox Limited",
+      "releaseDate": "2019-02-28",
+      "url": "https://apps.apple.com/kr/app/koala-sampler-beat-maker/id1449584007"
+    },
+    {
+      "rank": 39,
+      "id": "972387337",
+      "name": "Scrivener",
+      "developer": "Literature & Latte",
+      "releaseDate": "2016-07-20",
+      "url": "https://apps.apple.com/kr/app/scrivener/id972387337"
+    },
+    {
+      "rank": 40,
+      "id": "6752629903",
+      "name": "피드 가계부 Pro",
+      "developer": "MINIE BAI",
+      "releaseDate": "2025-11-04",
+      "url": "https://apps.apple.com/kr/app/%ED%94%BC%EB%93%9C-%EA%B0%80%EA%B3%84%EB%B6%80-pro/id6752629903"
+    },
+    {
+      "rank": 41,
+      "id": "1489470545",
+      "name": "iFacialMocap",
+      "developer": "DevelopW LLC",
+      "releaseDate": "2020-01-13",
+      "url": "https://apps.apple.com/kr/app/ifacialmocap/id1489470545"
+    },
+    {
+      "rank": 42,
+      "id": "6779637882",
+      "name": "왁뿌 ASMR",
+      "developer": "Yesung Yoon",
+      "releaseDate": "2026-06-16",
+      "url": "https://apps.apple.com/kr/app/%EC%99%81%EB%BF%8C-asmr/id6779637882"
+    },
+    {
+      "rank": 43,
+      "id": "6782270896",
+      "name": "청소년상담사 3급 | 2026년 대비 문제",
+      "developer": "Masaki Kobayashi",
+      "releaseDate": "2026-06-21",
+      "url": "https://apps.apple.com/kr/app/%EC%B2%AD%EC%86%8C%EB%85%84%EC%83%81%EB%8B%B4%EC%82%AC-3%EA%B8%89-2026%EB%85%84-%EB%8C%80%EB%B9%84-%EB%AC%B8%EC%A0%9C/id6782270896"
+    },
+    {
+      "rank": 44,
+      "id": "6541753681",
+      "name": "바로 녹음 - 세상에 없던 가장 빠른 애플워치 녹음기",
+      "developer": "GEONJU CHOI",
+      "releaseDate": "2024-07-17",
+      "url": "https://apps.apple.com/kr/app/%EB%B0%94%EB%A1%9C-%EB%85%B9%EC%9D%8C-%EC%84%B8%EC%83%81%EC%97%90-%EC%97%86%EB%8D%98-%EA%B0%80%EC%9E%A5-%EB%B9%A0%EB%A5%B8-%EC%95%A0%ED%94%8C%EC%9B%8C%EC%B9%98-%EB%85%B9%EC%9D%8C%EA%B8%B0/id6541753681"
+    },
+    {
+      "rank": 45,
+      "id": "6769252779",
+      "name": "사진 감성 필터 편집 - MellowFilter",
+      "developer": "ChanGyu Kang",
+      "releaseDate": "2026-05-14",
+      "url": "https://apps.apple.com/kr/app/%EC%82%AC%EC%A7%84-%EA%B0%90%EC%84%B1-%ED%95%84%ED%84%B0-%ED%8E%B8%EC%A7%91-mellowfilter/id6769252779"
+    },
+    {
+      "rank": 46,
+      "id": "1084325249",
+      "name": "ShutterCount Mobile",
+      "developer": "DIRE Studio",
+      "releaseDate": "2016-04-04",
+      "url": "https://apps.apple.com/kr/app/shuttercount-mobile/id1084325249"
+    },
+    {
+      "rank": 47,
+      "id": "1062022008",
+      "name": "LumaFusion",
+      "developer": "Luma Touch LLC",
+      "releaseDate": "2016-12-22",
+      "url": "https://apps.apple.com/kr/app/lumafusion/id1062022008"
+    },
+    {
+      "rank": 48,
+      "id": "6453697787",
+      "name": "네거티브 - 필름 룩 필터.",
+      "developer": "스몰캐머러",
+      "releaseDate": "2023-07-29",
+      "url": "https://apps.apple.com/kr/app/%EB%84%A4%EA%B1%B0%ED%8B%B0%EB%B8%8C-%ED%95%84%EB%A6%84-%EB%A3%A9-%ED%95%84%ED%84%B0/id6453697787"
+    },
+    {
+      "rank": 49,
+      "id": "1164801111",
+      "name": "AutoSleep - Watch를 이용한 수면 분석",
+      "developer": "Tantsissa",
+      "releaseDate": "2016-12-20",
+      "url": "https://apps.apple.com/kr/app/autosleep-watch%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EC%88%98%EB%A9%B4-%EB%B6%84%EC%84%9D/id1164801111"
+    },
+    {
+      "rank": 50,
+      "id": "6754986970",
+      "name": "RPGPlayer - An RPGMaker Player",
+      "developer": "Emir Han Temur",
+      "releaseDate": "2025-12-10",
+      "url": "https://apps.apple.com/kr/app/rpgplayer-an-rpgmaker-player/id6754986970"
+    }
+  ],
+  "apple:us:top-free": [
+    {
+      "rank": 1,
+      "id": "6746049430",
+      "name": "FOX One: Live News, Sports, TV",
+      "developer": "Fox Digital Services, LLC",
+      "releaseDate": "2025-08-20",
+      "url": "https://apps.apple.com/us/app/fox-one-live-news-sports-tv/id6746049430"
+    },
+    {
+      "rank": 2,
+      "id": "6767364919",
+      "name": "Trump Accounts: Official App",
+      "developer": "U.S. Department of the Treasury",
+      "releaseDate": "2026-05-27",
+      "url": "https://apps.apple.com/us/app/trump-accounts-official-app/id6767364919"
+    },
+    {
+      "rank": 3,
+      "id": "6447582581",
+      "name": "Netflix Game Controller",
+      "developer": "Netflix, Inc.",
+      "releaseDate": "2023-08-07",
+      "url": "https://apps.apple.com/us/app/netflix-game-controller/id6447582581"
+    },
+    {
+      "rank": 4,
+      "id": "1632713844",
+      "name": "Kalshi: Trade the World Cup",
+      "developer": "KalshiEX LLC",
+      "releaseDate": "2022-09-16",
+      "url": "https://apps.apple.com/us/app/kalshi-trade-the-world-cup/id1632713844"
+    },
+    {
+      "rank": 5,
+      "id": "1508186374",
+      "name": "Peacock TV: Stream TV & Movies",
+      "developer": "Peacock TV LLC",
+      "releaseDate": "2020-07-14",
+      "url": "https://apps.apple.com/us/app/peacock-tv-stream-tv-movies/id1508186374"
+    },
+    {
+      "rank": 6,
+      "id": "6448311069",
+      "name": "ChatGPT",
+      "developer": "OpenAI OpCo, LLC",
+      "releaseDate": "2023-05-18",
+      "url": "https://apps.apple.com/us/app/chatgpt/id6448311069"
+    },
+    {
+      "rank": 7,
+      "id": "460177396",
+      "name": "Twitch: Live Streaming",
+      "developer": "Twitch Interactive, Inc.",
+      "releaseDate": "2011-10-26",
+      "url": "https://apps.apple.com/us/app/twitch-live-streaming/id460177396"
+    },
+    {
+      "rank": 8,
+      "id": "6446901002",
+      "name": "Threads",
+      "developer": "Instagram, Inc.",
+      "releaseDate": "2023-07-05",
+      "url": "https://apps.apple.com/us/app/threads/id6446901002"
+    },
+    {
+      "rank": 9,
+      "id": "518684914",
+      "name": "Depop - Buy & Sell Clothes",
+      "developer": "Depop Ltd",
+      "releaseDate": "2012-08-01",
+      "url": "https://apps.apple.com/us/app/depop-buy-sell-clothes/id518684914"
+    },
+    {
+      "rank": 10,
+      "id": "6477489729",
+      "name": "Google Gemini",
+      "developer": "Google",
+      "releaseDate": "2024-11-13",
+      "url": "https://apps.apple.com/us/app/google-gemini/id6477489729"
+    },
+    {
+      "rank": 11,
+      "id": "1673567402",
+      "name": "Freecash - Get Paid Real Money",
+      "developer": "256 REWARDS LTD",
+      "releaseDate": "2024-04-01",
+      "url": "https://apps.apple.com/us/app/freecash-get-paid-real-money/id1673567402"
+    },
+    {
+      "rank": 12,
+      "id": "6741796873",
+      "name": "TikTok Pro - Events",
+      "developer": "TikTok Ltd.",
+      "releaseDate": "2026-06-03",
+      "url": "https://apps.apple.com/us/app/tiktok-pro-events/id6741796873"
+    },
+    {
+      "rank": 13,
+      "id": "6473753684",
+      "name": "Claude by Anthropic",
+      "developer": "Anthropic PBC",
+      "releaseDate": "2024-05-01",
+      "url": "https://apps.apple.com/us/app/claude-by-anthropic/id6473753684"
+    },
+    {
+      "rank": 14,
+      "id": "284815942",
+      "name": "Google",
+      "developer": "Google",
+      "releaseDate": "2019-02-12",
+      "url": "https://apps.apple.com/us/app/google/id284815942"
+    },
+    {
+      "rank": 15,
+      "id": "6670430706",
+      "name": "DramaWave - Dramas & Reels",
+      "developer": "SKYWORK AI PTE LTD",
+      "releaseDate": "2024-09-23",
+      "url": "https://apps.apple.com/us/app/dramawave-dramas-reels/id6670430706"
+    },
+    {
+      "rank": 16,
+      "id": "6648798962",
+      "name": "Polymarket: Trade Soccer",
+      "developer": "Polymarket",
+      "releaseDate": "2024-09-24",
+      "url": "https://apps.apple.com/us/app/polymarket-trade-soccer/id6648798962"
+    },
+    {
+      "rank": 17,
+      "id": "1500855883",
+      "name": "CapCut: Photo & Video Editor",
+      "developer": "Bytedance Pte. Ltd",
+      "releaseDate": "2020-04-14",
+      "url": "https://apps.apple.com/us/app/capcut-photo-video-editor/id1500855883"
+    },
+    {
+      "rank": 18,
+      "id": "1488269261",
+      "name": "Whatnot: Shop, Sell, Connect",
+      "developer": "Whatnot Inc.",
+      "releaseDate": "2019-12-06",
+      "url": "https://apps.apple.com/us/app/whatnot-shop-sell-connect/id1488269261"
+    },
+    {
+      "rank": 19,
+      "id": "310633997",
+      "name": "WhatsApp Messenger",
+      "developer": "WhatsApp Inc.",
+      "releaseDate": "2009-05-04",
+      "url": "https://apps.apple.com/us/app/whatsapp-messenger/id310633997"
+    },
+    {
+      "rank": 20,
+      "id": "6761538521",
+      "name": "StoryReel: Exclusive Drama",
+      "developer": "Equinox Enterprises‌ Technology Limited",
+      "releaseDate": "2026-04-08",
+      "url": "https://apps.apple.com/us/app/storyreel-exclusive-drama/id6761538521"
+    },
+    {
+      "rank": 21,
+      "id": "1465944282",
+      "name": "Love Island USA",
+      "developer": "ITV America Inc.",
+      "releaseDate": "2019-07-01",
+      "url": "https://apps.apple.com/us/app/love-island-usa/id1465944282"
+    },
+    {
+      "rank": 22,
+      "id": "6758667154",
+      "name": "VibeShort: AI Comic Dramas",
+      "developer": "AGILE QUADRANT MEDIA LIMITED",
+      "releaseDate": "2026-02-25",
+      "url": "https://apps.apple.com/us/app/vibeshort-ai-comic-dramas/id6758667154"
+    },
+    {
+      "rank": 23,
+      "id": "1641486558",
+      "name": "Temu: Shop Like a Billionaire",
+      "developer": "Temu",
+      "releaseDate": "2022-08-31",
+      "url": "https://apps.apple.com/us/app/temu-shop-like-a-billionaire/id1641486558"
+    },
+    {
+      "rank": 24,
+      "id": "905401434",
+      "name": "Fubo: Watch Live TV & Sports",
+      "developer": "fuboTV Inc.",
+      "releaseDate": "2014-09-08",
+      "url": "https://apps.apple.com/us/app/fubo-watch-live-tv-sports/id905401434"
+    },
+    {
+      "rank": 25,
+      "id": "6445905219",
+      "name": "DramaBox - Stream Drama Shorts",
+      "developer": "STORYMATRIX PTE. LTD.",
+      "releaseDate": "2023-04-18",
+      "url": "https://apps.apple.com/us/app/dramabox-stream-drama-shorts/id6445905219"
+    },
+    {
+      "rank": 26,
+      "id": "585027354",
+      "name": "Google Maps",
+      "developer": "Google",
+      "releaseDate": "2012-12-13",
+      "url": "https://apps.apple.com/us/app/google-maps/id585027354"
+    },
+    {
+      "rank": 27,
+      "id": "333903271",
+      "name": "X",
+      "developer": "X Corp.",
+      "releaseDate": "2009-10-09",
+      "url": "https://apps.apple.com/us/app/x/id333903271"
+    },
+    {
+      "rank": 28,
+      "id": "1558240027",
+      "name": "Meta AI",
+      "developer": "Meta Platforms, Inc.",
+      "releaseDate": "2021-09-09",
+      "url": "https://apps.apple.com/us/app/meta-ai/id1558240027"
+    },
+    {
+      "rank": 29,
+      "id": "1636235979",
+      "name": "ReelShort - Stream Drama & TV",
+      "developer": "NewLeaf Publishing",
+      "releaseDate": "2022-08-24",
+      "url": "https://apps.apple.com/us/app/reelshort-stream-drama-tv/id1636235979"
+    },
+    {
+      "rank": 30,
+      "id": "1223471316",
+      "name": "Shop: All your favorite brands",
+      "developer": "Shopify Inc.",
+      "releaseDate": "2017-11-16",
+      "url": "https://apps.apple.com/us/app/shop-all-your-favorite-brands/id1223471316"
+    },
+    {
+      "rank": 31,
+      "id": "719972451",
+      "name": "DoorDash: Food, Grocery, More",
+      "developer": "DoorDash, Inc.",
+      "releaseDate": "2013-10-10",
+      "url": "https://apps.apple.com/us/app/doordash-food-grocery-more/id719972451"
+    },
+    {
+      "rank": 32,
+      "id": "422689480",
+      "name": "Gmail - Email by Google",
+      "developer": "Google",
+      "releaseDate": "2011-11-02",
+      "url": "https://apps.apple.com/us/app/gmail-email-by-google/id422689480"
+    },
+    {
+      "rank": 33,
+      "id": "632064380",
+      "name": "Vinted: Pre-loved marketplace",
+      "developer": "Vinted Limited",
+      "releaseDate": "2013-04-11",
+      "url": "https://apps.apple.com/us/app/vinted-pre-loved-marketplace/id632064380"
+    },
+    {
+      "rank": 34,
+      "id": "1193350206",
+      "name": "YouTube TV",
+      "developer": "Google",
+      "releaseDate": "2017-04-05",
+      "url": "https://apps.apple.com/us/app/youtube-tv/id1193350206"
+    },
+    {
+      "rank": 35,
+      "id": "338137227",
+      "name": "Walmart: Shopping & Savings",
+      "developer": "Walmart",
+      "releaseDate": "2009-11-02",
+      "url": "https://apps.apple.com/us/app/walmart-shopping-savings/id338137227"
+    },
+    {
+      "rank": 36,
+      "id": "680595680",
+      "name": "Telemundo: Series y TV en vivo",
+      "developer": "NBCUniversal Media, LLC",
+      "releaseDate": "2013-08-08",
+      "url": "https://apps.apple.com/us/app/telemundo-series-y-tv-en-vivo/id680595680"
+    },
+    {
+      "rank": 37,
+      "id": "835599320",
+      "name": "TikTok - Videos, Shop & LIVE",
+      "developer": "TikTok Ltd.",
+      "releaseDate": "2014-04-02",
+      "url": "https://apps.apple.com/us/app/tiktok-videos-shop-live/id835599320"
+    },
+    {
+      "rank": 38,
+      "id": "686449807",
+      "name": "Telegram Messenger",
+      "developer": "Telegram FZ-LLC",
+      "releaseDate": "2013-08-14",
+      "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807"
+    },
+    {
+      "rank": 39,
+      "id": "389801252",
+      "name": "Instagram",
+      "developer": "Instagram, Inc.",
+      "releaseDate": "2010-10-06",
+      "url": "https://apps.apple.com/us/app/instagram/id389801252"
+    },
+    {
+      "rank": 40,
+      "id": "983156458",
+      "name": "Microsoft Authenticator",
+      "developer": "Microsoft Corporation",
+      "releaseDate": "2015-05-30",
+      "url": "https://apps.apple.com/us/app/microsoft-authenticator/id983156458"
+    },
+    {
+      "rank": 41,
+      "id": "309735670",
+      "name": "Indeed Job Search",
+      "developer": "Indeed Inc.",
+      "releaseDate": "2009-06-08",
+      "url": "https://apps.apple.com/us/app/indeed-job-search/id309735670"
+    },
+    {
+      "rank": 42,
+      "id": "368677368",
+      "name": "Uber - Request a ride",
+      "developer": "Uber Technologies, Inc.",
+      "releaseDate": "2010-05-21",
+      "url": "https://apps.apple.com/us/app/uber-request-a-ride/id368677368"
+    },
+    {
+      "rank": 43,
+      "id": "401626263",
+      "name": "Airbnb",
+      "developer": "Airbnb, Inc.",
+      "releaseDate": "2010-11-10",
+      "url": "https://apps.apple.com/us/app/airbnb/id401626263"
+    },
+    {
+      "rank": 44,
+      "id": "284882215",
+      "name": "Facebook",
+      "developer": "Meta Platforms, Inc.",
+      "releaseDate": "2019-02-05",
+      "url": "https://apps.apple.com/us/app/facebook/id284882215"
+    },
+    {
+      "rank": 45,
+      "id": "985746746",
+      "name": "Discord - Talk, Play, Hang Out",
+      "developer": "Discord Inc.",
+      "releaseDate": "2015-05-21",
+      "url": "https://apps.apple.com/us/app/discord-talk-play-hang-out/id985746746"
+    },
+    {
+      "rank": 46,
+      "id": "878577184",
+      "name": "SHEIN - Shopping Online",
+      "developer": "ROADGET BUSINESS PTE. LTD.",
+      "releaseDate": "2014-05-20",
+      "url": "https://apps.apple.com/us/app/shein-shopping-online/id878577184"
+    },
+    {
+      "rank": 47,
+      "id": "283646709",
+      "name": "PayPal - Pay, Send, Save",
+      "developer": "PayPal, Inc.",
+      "releaseDate": "2019-02-03",
+      "url": "https://apps.apple.com/us/app/paypal-pay-send-save/id283646709"
+    },
+    {
+      "rank": 48,
+      "id": "886445756",
+      "name": "Tubi: Movies & Live TV",
+      "developer": "Tubi, Inc",
+      "releaseDate": "2014-07-24",
+      "url": "https://apps.apple.com/us/app/tubi-movies-live-tv/id886445756"
+    },
+    {
+      "rank": 49,
+      "id": "482066631",
+      "name": "The Roku App (Official)",
+      "developer": "ROKU INC",
+      "releaseDate": "2011-12-15",
+      "url": "https://apps.apple.com/us/app/the-roku-app-official/id482066631"
+    },
+    {
+      "rank": 50,
+      "id": "297606951",
+      "name": "Amazon Shopping",
+      "developer": "AMZN Mobile LLC",
+      "releaseDate": "2008-12-03",
+      "url": "https://apps.apple.com/us/app/amazon-shopping/id297606951"
+    }
+  ],
+  "apple:us:top-paid": [
+    {
+      "rank": 1,
+      "id": "932747118",
+      "name": "Shadowrocket",
+      "developer": "Shadow Launch Technology Limited",
+      "releaseDate": "2015-04-14",
+      "url": "https://apps.apple.com/us/app/shadowrocket/id932747118"
+    },
+    {
+      "rank": 2,
+      "id": "294934058",
+      "name": "HotSchedules",
+      "developer": "HotSchedules",
+      "releaseDate": "2008-10-31",
+      "url": "https://apps.apple.com/us/app/hotschedules/id294934058"
+    },
+    {
+      "rank": 3,
+      "id": "373493387",
+      "name": "AnkiMobile Flashcards",
+      "developer": "Anki Software, LLC",
+      "releaseDate": "2010-05-27",
+      "url": "https://apps.apple.com/us/app/ankimobile-flashcards/id373493387"
+    },
+    {
+      "rank": 4,
+      "id": "916366645",
+      "name": "Procreate Pocket",
+      "developer": "Savage Interactive Pty Ltd",
+      "releaseDate": "2014-12-17",
+      "url": "https://apps.apple.com/us/app/procreate-pocket/id916366645"
+    },
+    {
+      "rank": 5,
+      "id": "288419283",
+      "name": "RadarScope",
+      "developer": "Base Velocity, LLC",
+      "releaseDate": "2019-02-12",
+      "url": "https://apps.apple.com/us/app/radarscope/id288419283"
+    },
+    {
+      "rank": 6,
+      "id": "404990064",
+      "name": "SkyView®",
+      "developer": "Terminal Eleven LLC",
+      "releaseDate": "2010-12-10",
+      "url": "https://apps.apple.com/us/app/skyview/id404990064"
+    },
+    {
+      "rank": 7,
+      "id": "1303222868",
+      "name": "Paprika Recipe Manager 3",
+      "developer": "Hindsight Labs LLC",
+      "releaseDate": "2017-11-15",
+      "url": "https://apps.apple.com/us/app/paprika-recipe-manager-3/id1303222868"
+    },
+    {
+      "rank": 8,
+      "id": "586149216",
+      "name": "Monash FODMAP Diet",
+      "developer": "Monash University",
+      "releaseDate": "2012-12-17",
+      "url": "https://apps.apple.com/us/app/monash-fodmap-diet/id586149216"
+    },
+    {
+      "rank": 9,
+      "id": "1079999103",
+      "name": "Mealime Meal Plans & Recipes",
+      "developer": "Mealime Meal Plans Inc",
+      "releaseDate": "2016-02-24",
+      "url": "https://apps.apple.com/us/app/mealime-meal-plans-recipes/id1079999103"
+    },
+    {
+      "rank": 10,
+      "id": "963034692",
+      "name": "Streaks",
+      "developer": "Crunchy Bagel",
+      "releaseDate": "2015-06-01",
+      "url": "https://apps.apple.com/us/app/streaks/id963034692"
+    },
+    {
+      "rank": 11,
+      "id": "357421934",
+      "name": "PeakFinder",
+      "developer": "PeakFinder GmbH",
+      "releaseDate": "2010-03-12",
+      "url": "https://apps.apple.com/us/app/peakfinder/id357421934"
+    },
+    {
+      "rank": 12,
+      "id": "497716362",
+      "name": "TonalEnergy Tuner & Metronome",
+      "developer": "TonalEnergy, Inc",
+      "releaseDate": "2012-02-18",
+      "url": "https://apps.apple.com/us/app/tonalenergy-tuner-metronome/id497716362"
+    },
+    {
+      "rank": 13,
+      "id": "432850619",
+      "name": "FL Studio Mobile",
+      "developer": "Image Line Software",
+      "releaseDate": "2011-06-21",
+      "url": "https://apps.apple.com/us/app/fl-studio-mobile/id432850619"
+    },
+    {
+      "rank": 14,
+      "id": "1536762482",
+      "name": "Spirit Talker ®",
+      "developer": "Spotted Ghosts",
+      "releaseDate": "2020-10-30",
+      "url": "https://apps.apple.com/us/app/spirit-talker/id1536762482"
+    },
+    {
+      "rank": 15,
+      "id": "301387274",
+      "name": "Pocket God",
+      "developer": "Bolt Creative",
+      "releaseDate": "2009-01-09",
+      "url": "https://apps.apple.com/us/app/pocket-god/id301387274"
+    },
+    {
+      "rank": 16,
+      "id": "1164801111",
+      "name": "AutoSleep: Watch Sleep Tracker",
+      "developer": "Tantsissa",
+      "releaseDate": "2016-12-20",
+      "url": "https://apps.apple.com/us/app/autosleep-watch-sleep-tracker/id1164801111"
+    },
+    {
+      "rank": 17,
+      "id": "6758589017",
+      "name": "Modern METAR Widget",
+      "developer": "Sean Heiken",
+      "releaseDate": "2026-02-06",
+      "url": "https://apps.apple.com/us/app/modern-metar-widget/id6758589017"
+    },
+    {
+      "rank": 18,
+      "id": "6754467968",
+      "name": "Foggy: Bay Area Fog Tracker",
+      "developer": "Nyfik, Inc.",
+      "releaseDate": "2026-06-22",
+      "url": "https://apps.apple.com/us/app/foggy-bay-area-fog-tracker/id6754467968"
+    },
+    {
+      "rank": 19,
+      "id": "357404131",
+      "name": "Slow Shutter Cam",
+      "developer": "Cogitap Software",
+      "releaseDate": "2010-02-23",
+      "url": "https://apps.apple.com/us/app/slow-shutter-cam/id357404131"
+    },
+    {
+      "rank": 20,
+      "id": "1662217862",
+      "name": "Wipr 2",
+      "developer": "Kaylee Calderolla",
+      "releaseDate": "2024-11-12",
+      "url": "https://apps.apple.com/us/app/wipr-2/id1662217862"
+    },
+    {
+      "rank": 21,
+      "id": "6463562198",
+      "name": "Ye said",
+      "developer": "Aron Martin Visser",
+      "releaseDate": "2023-08-28",
+      "url": "https://apps.apple.com/us/app/ye-said/id6463562198"
+    },
+    {
+      "rank": 22,
+      "id": "578665578",
+      "name": "Threema. The Secure Messenger",
+      "developer": "Threema GmbH",
+      "releaseDate": "2012-12-28",
+      "url": "https://apps.apple.com/us/app/threema-the-secure-messenger/id578665578"
+    },
+    {
+      "rank": 23,
+      "id": "1400579543",
+      "name": "imo video calls and chat HD",
+      "developer": "Baby Penguin",
+      "releaseDate": "2018-09-02",
+      "url": "https://apps.apple.com/us/app/imo-video-calls-and-chat-hd/id1400579543"
+    },
+    {
+      "rank": 24,
+      "id": "1140451547",
+      "name": "Shot Tracer",
+      "developer": "Visual Vertigo Software Technologies GmbH",
+      "releaseDate": "2016-09-11",
+      "url": "https://apps.apple.com/us/app/shot-tracer/id1140451547"
+    },
+    {
+      "rank": 25,
+      "id": "1581140954",
+      "name": "Noir - Dark Mode for Safari",
+      "developer": "Jeffrey Kuiken",
+      "releaseDate": "2021-09-20",
+      "url": "https://apps.apple.com/us/app/noir-dark-mode-for-safari/id1581140954"
+    },
+    {
+      "rank": 26,
+      "id": "6778099993",
+      "name": "Manager for KuKirin",
+      "developer": "Radoslaw Marciniak",
+      "releaseDate": "2026-06-09",
+      "url": "https://apps.apple.com/us/app/manager-for-kukirin/id6778099993"
+    },
+    {
+      "rank": 27,
+      "id": "317809458",
+      "name": "LiveATC Air Radio",
+      "developer": "Dave Pascoe",
+      "releaseDate": "2009-06-09",
+      "url": "https://apps.apple.com/us/app/liveatc-air-radio/id317809458"
+    },
+    {
+      "rank": 28,
+      "id": "904237743",
+      "name": "Things 3",
+      "developer": "Cultured Code GmbH & Co. KG",
+      "releaseDate": "2017-05-18",
+      "url": "https://apps.apple.com/us/app/things-3/id904237743"
+    },
+    {
+      "rank": 29,
+      "id": "6748837351",
+      "name": "Moment Pro Camera II",
+      "developer": "Moment Inc.",
+      "releaseDate": "2025-11-14",
+      "url": "https://apps.apple.com/us/app/moment-pro-camera-ii/id6748837351"
+    },
+    {
+      "rank": 30,
+      "id": "335709058",
+      "name": "Stylebook",
+      "developer": "left brain / right brain, LLC",
+      "releaseDate": "2009-10-29",
+      "url": "https://apps.apple.com/us/app/stylebook/id335709058"
+    },
+    {
+      "rank": 31,
+      "id": "435871950",
+      "name": "HappyCow - Vegan Food Near You",
+      "developer": "HappyCow",
+      "releaseDate": "2011-05-12",
+      "url": "https://apps.apple.com/us/app/happycow-vegan-food-near-you/id435871950"
+    },
+    {
+      "rank": 32,
+      "id": "6449003064",
+      "name": "Goblin Tools",
+      "developer": "Skyhook",
+      "releaseDate": "2023-05-31",
+      "url": "https://apps.apple.com/us/app/goblin-tools/id6449003064"
+    },
+    {
+      "rank": 33,
+      "id": "1175031995",
+      "name": "My Lightning Tracker Pro",
+      "developer": "JRustonApps B.V.",
+      "releaseDate": "2016-11-16",
+      "url": "https://apps.apple.com/us/app/my-lightning-tracker-pro/id1175031995"
+    },
+    {
+      "rank": 34,
+      "id": "6763737180",
+      "name": "YoungPhoto - Aesthetic Camera",
+      "developer": "Seungyun Kim",
+      "releaseDate": "2026-06-26",
+      "url": "https://apps.apple.com/us/app/youngphoto-aesthetic-camera/id6763737180"
+    },
+    {
+      "rank": 35,
+      "id": "289894882",
+      "name": "White Noise",
+      "developer": "TMSOFT",
+      "releaseDate": "2019-01-31",
+      "url": "https://apps.apple.com/us/app/white-noise/id289894882"
+    },
+    {
+      "rank": 36,
+      "id": "1449584007",
+      "name": "Koala Sampler • Beat Maker",
+      "developer": "Mazbox Limited",
+      "releaseDate": "2019-02-28",
+      "url": "https://apps.apple.com/us/app/koala-sampler-beat-maker/id1449584007"
+    },
+    {
+      "rank": 37,
+      "id": "1010311475",
+      "name": "QuickBend: Conduit Bending",
+      "developer": "Bret Hardman",
+      "releaseDate": "2015-07-28",
+      "url": "https://apps.apple.com/us/app/quickbend-conduit-bending/id1010311475"
+    },
+    {
+      "rank": 38,
+      "id": "1505636751",
+      "name": "TeleGuard",
+      "developer": "Swisscows AG",
+      "releaseDate": "2021-01-19",
+      "url": "https://apps.apple.com/us/app/teleguard/id1505636751"
+    },
+    {
+      "rank": 39,
+      "id": "1633243177",
+      "name": "Ableton Note",
+      "developer": "Ableton AG",
+      "releaseDate": "2022-10-18",
+      "url": "https://apps.apple.com/us/app/ableton-note/id1633243177"
+    },
+    {
+      "rank": 40,
+      "id": "298206806",
+      "name": "iReal Pro",
+      "developer": "Technimo LLC",
+      "releaseDate": "2008-12-02",
+      "url": "https://apps.apple.com/us/app/ireal-pro/id298206806"
+    },
+    {
+      "rank": 41,
+      "id": "1453647914",
+      "name": "iWebTV PRO",
+      "developer": "Swishly inc",
+      "releaseDate": "2019-03-16",
+      "url": "https://apps.apple.com/us/app/iwebtv-pro/id1453647914"
+    },
+    {
+      "rank": 42,
+      "id": "582584117",
+      "name": "Solocator - GPS Field Camera",
+      "developer": "Civi Corp",
+      "releaseDate": "2012-12-09",
+      "url": "https://apps.apple.com/us/app/solocator-gps-field-camera/id582584117"
+    },
+    {
+      "rank": 43,
+      "id": "327963391",
+      "name": "Pedi STAT",
+      "developer": "James M Kempema MD PA",
+      "releaseDate": "2009-08-29",
+      "url": "https://apps.apple.com/us/app/pedi-stat/id327963391"
+    },
+    {
+      "rank": 44,
+      "id": "892347083",
+      "name": "FORScan Lite - for Ford, Mazda",
+      "developer": "Aleksei Savin",
+      "releaseDate": "2014-11-02",
+      "url": "https://apps.apple.com/us/app/forscan-lite-for-ford-mazda/id892347083"
+    },
+    {
+      "rank": 45,
+      "id": "325683306",
+      "name": "MyRadar Weather Radar Pro",
+      "developer": "Aviation Data Systems, Inc",
+      "releaseDate": "2009-08-10",
+      "url": "https://apps.apple.com/us/app/myradar-weather-radar-pro/id325683306"
+    },
+    {
+      "rank": 46,
+      "id": "634158738",
+      "name": "e-Sword LT: Bible Study to Go",
+      "developer": "Rick Meyers",
+      "releaseDate": "2013-04-20",
+      "url": "https://apps.apple.com/us/app/e-sword-lt-bible-study-to-go/id634158738"
+    },
+    {
+      "rank": 47,
+      "id": "432791399",
+      "name": "Cloud Baby Monitor",
+      "developer": "VIGI Limited",
+      "releaseDate": "2011-06-27",
+      "url": "https://apps.apple.com/us/app/cloud-baby-monitor/id432791399"
+    },
+    {
+      "rank": 48,
+      "id": "1564403188",
+      "name": "StbEmuTV (Pro)",
+      "developer": "Junaid Muhammad",
+      "releaseDate": "2021-04-30",
+      "url": "https://apps.apple.com/us/app/stbemutv-pro/id1564403188"
+    },
+    {
+      "rank": 49,
+      "id": "1396698319",
+      "name": "Necrophonic",
+      "developer": "chris rogers",
+      "releaseDate": "2018-07-25",
+      "url": "https://apps.apple.com/us/app/necrophonic/id1396698319"
+    },
+    {
+      "rank": 50,
+      "id": "6752807769",
+      "name": "DJ Rehab Music",
+      "developer": "Brian McCoy",
+      "releaseDate": "2025-09-20",
+      "url": "https://apps.apple.com/us/app/dj-rehab-music/id6752807769"
+    }
+  ],
+  "play:kr:top-free:all": [
+    {
+      "rank": 1,
+      "id": "com.trusted.pdfeditor.pdfreader",
+      "name": "PDF Reader, PDF Viewer",
+      "developer": "Office Suite Pro",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.trusted.pdfeditor.pdfreader"
+    },
+    {
+      "rank": 2,
+      "id": "com.komsco.kpay",
+      "name": "디지털온누리",
+      "developer": "KOMSCO",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.komsco.kpay"
+    },
+    {
+      "rank": 3,
+      "id": "com.navercorp.navershopping",
+      "name": "네이버플러스 스토어",
+      "developer": "NAVER Corp.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.navercorp.navershopping"
+    },
+    {
+      "rank": 4,
+      "id": "com.openai.chatgpt",
+      "name": "ChatGPT",
+      "developer": "OpenAI",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.openai.chatgpt"
+    },
+    {
+      "rank": 5,
+      "id": "com.ss.android.ugc.tiktok.lite",
+      "name": "TikTok Lite",
+      "developer": "TikTok Pte. Ltd.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.ss.android.ugc.tiktok.lite"
+    },
+    {
+      "rank": 6,
+      "id": "com.dramawave.app",
+      "name": "DramaWave - Dramas & Reels",
+      "developer": "SKYWORK AI PTE.LTD.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.dramawave.app"
+    },
+    {
+      "rank": 7,
+      "id": "net.ib.android.smcard",
+      "name": "모니모(삼성금융통합앱) 생명 화재 카드 증권",
+      "developer": "Samsung Card",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=net.ib.android.smcard"
+    },
+    {
+      "rank": 8,
+      "id": "com.hanabank.oqf",
+      "name": "하나은행, 새로워진 하나원큐를 경험해보세요",
+      "developer": "Hanabank",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.hanabank.oqf"
+    },
+    {
+      "rank": 9,
+      "id": "allpdfreader.pdfviewer.editfilepdf",
+      "name": "All PDF Reader, PDF Viewer",
+      "developer": "Exo Technology",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=allpdfreader.pdfviewer.editfilepdf"
+    },
+    {
+      "rank": 10,
+      "id": "com.espublishing.pdfreader.viewer.editor",
+      "name": "PDF Reader: View All PDFs",
+      "developer": "Lumio Tech",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.espublishing.pdfreader.viewer.editor"
+    },
+    {
+      "rank": 11,
+      "id": "com.shinhan.sbanking",
+      "name": "신한 슈퍼SOL - 신한 유니버셜 금융 앱",
+      "developer": "Shinhan Bank",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.shinhan.sbanking"
+    },
+    {
+      "rank": 12,
+      "id": "com.scannerreader.qrcode.creatorfree",
+      "name": "QR Scanner",
+      "developer": "P & L Studio",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.scannerreader.qrcode.creatorfree"
+    },
+    {
+      "rank": 13,
+      "id": "com.ss.android.ugc.trill",
+      "name": "TikTok",
+      "developer": "TikTok Pte. Ltd.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.ss.android.ugc.trill"
+    },
+    {
+      "rank": 14,
+      "id": "com.anthropic.claude",
+      "name": "Claude by Anthropic",
+      "developer": "Anthropic PBC",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.anthropic.claude"
+    },
+    {
+      "rank": 15,
+      "id": "com.luminousbyte.gpstracker",
+      "name": "GPS Tracker: Location Sharing",
+      "developer": "LuminousByte",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.luminousbyte.gpstracker"
+    },
+    {
+      "rank": 16,
+      "id": "ctrip.english",
+      "name": "Trip.com: Book Flights, Hotels",
+      "developer": "Trip.com",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=ctrip.english"
+    },
+    {
+      "rank": 17,
+      "id": "com.qrscanner.qrcreator.bacodeqrsc",
+      "name": "QR Scanner Creator",
+      "developer": "Znd Digital",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.qrscanner.qrcreator.bacodeqrsc"
+    },
+    {
+      "rank": 18,
+      "id": "com.netflix.mediaclient",
+      "name": "Netflix",
+      "developer": "Netflix, Inc.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.netflix.mediaclient"
+    },
+    {
+      "rank": 19,
+      "id": "qrcode.barcodescan.aiscan",
+      "name": "QR Scanner, Read All Barcode",
+      "developer": "Techverse LTD",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=qrcode.barcodescan.aiscan"
+    },
+    {
+      "rank": 20,
+      "id": "com.netshort.abroad",
+      "name": "NetShort - Popular Dramas & TV",
+      "developer": "NETSTORY PTE. LTD.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.netshort.abroad"
+    },
+    {
+      "rank": 21,
+      "id": "com.bupavon.qrcode.reader.barcode.scan.generator",
+      "name": "QR Scanner, All Barcode Scan",
+      "developer": "Studio Rankvn",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.bupavon.qrcode.reader.barcode.scan.generator"
+    },
+    {
+      "rank": 22,
+      "id": "kr.or.nhic",
+      "name": "건강보험25시",
+      "developer": "국민건강보험공단",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=kr.or.nhic"
+    },
+    {
+      "rank": 23,
+      "id": "com.solara.qrcodescanner",
+      "name": "QR Code & Barcode Scanner",
+      "developer": "Exomobi Studio",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.solara.qrcodescanner"
+    },
+    {
+      "rank": 24,
+      "id": "com.skt.tmap.ku",
+      "name": "티맵 - 장소추천, 지도, 운전점수, 대중교통, 대리",
+      "developer": "TMAP MOBILITY CO.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.skt.tmap.ku"
+    },
+    {
+      "rank": 25,
+      "id": "com.instagram.android",
+      "name": "Instagram",
+      "developer": "Instagram",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.instagram.android"
+    },
+    {
+      "rank": 26,
+      "id": "kr.go.mobileid",
+      "name": "Mobile IDentification App",
+      "developer": "행정안전부",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=kr.go.mobileid"
+    },
+    {
+      "rank": 27,
+      "id": "com.einnovation.temu",
+      "name": "Temu: Shop Like a Billionaire",
+      "developer": "Temu",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.einnovation.temu"
+    },
+    {
+      "rank": 28,
+      "id": "com.solara.alldocumentreader.officepdfwordexcel",
+      "name": "All Document Reader: Word, PDF",
+      "developer": "Exomobi Studio",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.solara.alldocumentreader.officepdfwordexcel"
+    },
+    {
+      "rank": 29,
+      "id": "com.kakaopay.app",
+      "name": "카카오페이",
+      "developer": "kakaopay corp.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.kakaopay.app"
+    },
+    {
+      "rank": 30,
+      "id": "com.documentreader.documentviewer.office",
+      "name": "Document Reader & Viewer",
+      "developer": "Wdream Limited",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.documentreader.documentviewer.office"
+    },
+    {
+      "rank": 31,
+      "id": "com.towneers.www",
+      "name": "당근 - 당신 근처의 지역 생활 커뮤니티",
+      "developer": "Danggeun Market Inc.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.towneers.www"
+    },
+    {
+      "rank": 32,
+      "id": "com.pincrux.reward.bokyemtv",
+      "name": "겸사겸사",
+      "developer": "PINCRUX Inc",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.pincrux.reward.bokyemtv"
+    },
+    {
+      "rank": 33,
+      "id": "com.shinhan.o2o",
+      "name": "땡겨요",
+      "developer": "Shinhan Bank",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.shinhan.o2o"
+    },
+    {
+      "rank": 34,
+      "id": "com.coupang.mobile",
+      "name": "Coupang - Mobile Shopping",
+      "developer": "Coupang Corp.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.coupang.mobile"
+    },
+    {
+      "rank": 35,
+      "id": "com.hypertools.pdfeditor.pdfreader",
+      "name": "PDF Reader & PDF Editor",
+      "developer": "Hypers Tools",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.hypertools.pdfeditor.pdfreader"
+    },
+    {
+      "rank": 36,
+      "id": "com.duolingo",
+      "name": "Duolingo: Language Lessons",
+      "developer": "Duolingo",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.duolingo"
+    },
+    {
+      "rank": 37,
+      "id": "com.coupang.mobile.eats",
+      "name": "Coupang Eats - Food Delivery",
+      "developer": "Coupang Corp.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.coupang.mobile.eats"
+    },
+    {
+      "rank": 38,
+      "id": "com.seonwookkim.wakppubol",
+      "name": "Wax Cracking Squishy",
+      "developer": "김선욱 (Seonwook Kim)",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.seonwookkim.wakppubol"
+    },
+    {
+      "rank": 39,
+      "id": "kr.go.minwon.m",
+      "name": "정부24(구 민원24)",
+      "developer": "행정안전부",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=kr.go.minwon.m"
+    },
+    {
+      "rank": 40,
+      "id": "com.wanderweather.wanweforecast",
+      "name": "Wander Weather",
+      "developer": "Leapora Tech",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.wanderweather.wanweforecast"
+    },
+    {
+      "rank": 41,
+      "id": "weather.forecast.rain.radar",
+      "name": "Weather Screen - Forecast",
+      "developer": "weather screen team",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=weather.forecast.rain.radar"
+    },
+    {
+      "rank": 42,
+      "id": "com.nhn.android.nmap",
+      "name": "NAVER Maps, Navigation",
+      "developer": "NAVER Corp.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.nhn.android.nmap"
+    },
+    {
+      "rank": 43,
+      "id": "kr.co.ivlog.mobile.app.cjonecard",
+      "name": "CJ ONE",
+      "developer": "CJ OliveNetworks Co.ltd",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=kr.co.ivlog.mobile.app.cjonecard"
+    },
+    {
+      "rank": 44,
+      "id": "com.bupavon.scanner.document.scan.pdf",
+      "name": "All Document Reader & Scan",
+      "developer": "Studio Rankvn",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.bupavon.scanner.document.scan.pdf"
+    },
+    {
+      "rank": 45,
+      "id": "kr.or.nhiq",
+      "name": "모바일 건강보험증",
+      "developer": "국민건강보험공단",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=kr.or.nhiq"
+    },
+    {
+      "rank": 46,
+      "id": "com.uxlayer.wipoint",
+      "name": "다이소몰 – 온라인 국민가게",
+      "developer": "Asung Daiso",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.uxlayer.wipoint"
+    },
+    {
+      "rank": 47,
+      "id": "com.newchat.setlog",
+      "name": "setlog",
+      "developer": "newchat",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.newchat.setlog"
+    },
+    {
+      "rank": 48,
+      "id": "com.instagram.barcelona",
+      "name": "Threads",
+      "developer": "Instagram",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.instagram.barcelona"
+    },
+    {
+      "rank": 49,
+      "id": "com.lgeha.nuts",
+      "name": "LG ThinQ",
+      "developer": "LG Electronics, Inc.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.lgeha.nuts"
+    },
+    {
+      "rank": 50,
+      "id": "com.nonghyup.nhallonebank",
+      "name": "NH올원뱅크(농협은행 대표 플랫폼)",
+      "developer": "NH농협",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.nonghyup.nhallonebank"
+    }
+  ],
+  "play:kr:top-free:game": [
+    {
+      "rank": 1,
+      "id": "com.blackdust.redblue",
+      "name": "Furry Fighters : Idle RPG",
+      "developer": "RIFF GAMES Co., Ltd.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.blackdust.redblue"
+    },
+    {
+      "rank": 2,
+      "id": "com.ekkorr.ef2",
+      "name": "오늘도 환생 2 : 방치형 디펜스 RPG",
+      "developer": "ekkorr",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.ekkorr.ef2"
+    },
+    {
+      "rank": 3,
+      "id": "com.com2usholdings.starsailors.android.google.global.normal",
+      "name": "Star Sailors",
+      "developer": "Com2uS Holdings",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.com2usholdings.starsailors.android.google.global.normal"
+    },
+    {
+      "rank": 4,
+      "id": "com.oakever.meowdoku",
+      "name": "Meowdoku: Brain Puzzle Games",
+      "developer": "Oakever Games",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.oakever.meowdoku"
+    },
+    {
+      "rank": 5,
+      "id": "com.noriworks.gm",
+      "name": "고스톱M : 데이터 필요없는 맞고 게임",
+      "developer": "Noriworks",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.noriworks.gm"
+    },
+    {
+      "rank": 6,
+      "id": "com.mocacorp.tile",
+      "name": "Tile King - Triple Match",
+      "developer": "Moca",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.mocacorp.tile"
+    },
+    {
+      "rank": 7,
+      "id": "jp.pokemon.pokemonchampions",
+      "name": "Pokémon Champions",
+      "developer": "The Pokémon Company",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=jp.pokemon.pokemonchampions"
+    },
+    {
+      "rank": 8,
+      "id": "com.kr.lfhsgp",
+      "name": "그레이 사가",
+      "developer": "Leniu Technology Co., Limited",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.kr.lfhsgp"
+    },
+    {
+      "rank": 9,
+      "id": "com.ecffri.arrows",
+      "name": "Arrows – Puzzle Escape",
+      "developer": "Lessmore GmbH",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.ecffri.arrows"
+    },
+    {
+      "rank": 10,
+      "id": "com.oakever.arrows",
+      "name": "Amaze GO!",
+      "developer": "Oakever Games",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.oakever.arrows"
+    },
+    {
+      "rank": 11,
+      "id": "com.mocacorp.sudoku",
+      "name": "Sudoku",
+      "developer": "Moca",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.mocacorp.sudoku"
+    },
+    {
+      "rank": 12,
+      "id": "com.daerigame.rellion",
+      "name": "RELLION: NPC Survival",
+      "developer": "DAERI SOFT Inc",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.daerigame.rellion"
+    },
+    {
+      "rank": 13,
+      "id": "com.bhk.newslgkr",
+      "name": "삼국지: 천하결전",
+      "developer": "BILIBILI",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.bhk.newslgkr"
+    },
+    {
+      "rank": 14,
+      "id": "com.grandgames.magicsort",
+      "name": "Magic Sort!",
+      "developer": "Grand Games A.Ş.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.grandgames.magicsort"
+    },
+    {
+      "rank": 15,
+      "id": "com.mobirix.mgink",
+      "name": "Magical Ink: Decorating SNG",
+      "developer": "Florix Co.,Ltd.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.mobirix.mgink"
+    },
+    {
+      "rank": 16,
+      "id": "com.mergegames.gossipharbor",
+      "name": "Gossip Harbor®: Merge & Story",
+      "developer": "Microfun Limited",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.mergegames.gossipharbor"
+    },
+    {
+      "rank": 17,
+      "id": "com.naddic.bbhero",
+      "name": "별별히어로 : RPG 맛집",
+      "developer": "Mafgames",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.naddic.bbhero"
+    },
+    {
+      "rank": 18,
+      "id": "com.Gameplete.CardFantasy",
+      "name": "Triple Fantasy : Card RPG",
+      "developer": "Gameplete",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.Gameplete.CardFantasy"
+    },
+    {
+      "rank": 19,
+      "id": "com.noriworks.kg",
+      "name": "국민 고스톱",
+      "developer": "Noriworks",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.noriworks.kg"
+    },
+    {
+      "rank": 20,
+      "id": "com.block.juggle",
+      "name": "Block Blast!",
+      "developer": "HungryStudio",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.block.juggle"
+    },
+    {
+      "rank": 21,
+      "id": "jp.co.goodroid.hyper.busflow",
+      "name": "Bus Traffic Fever!",
+      "developer": "GOODROID,Inc.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=jp.co.goodroid.hyper.busflow"
+    },
+    {
+      "rank": 22,
+      "id": "com.roblox.client",
+      "name": "Roblox",
+      "developer": "Roblox Corporation",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.roblox.client"
+    },
+    {
+      "rank": 23,
+      "id": "com.haegin.kbo",
+      "name": "2026 프로야구GO!",
+      "developer": "HAEGIN Co., Ltd.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.haegin.kbo"
+    },
+    {
+      "rank": 24,
+      "id": "com.nexon.fmk",
+      "name": "FC 모바일",
+      "developer": "NEXON Company",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.nexon.fmk"
+    },
+    {
+      "rank": 25,
+      "id": "jp.co.ponos.battlecatskr",
+      "name": "냥코 대전쟁",
+      "developer": "PONOS Corporation",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=jp.co.ponos.battlecatskr"
+    },
+    {
+      "rank": 26,
+      "id": "com.highbrow.games.dvo",
+      "name": "Dragon Village 3",
+      "developer": "highbrow",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.highbrow.games.dvo"
+    },
+    {
+      "rank": 27,
+      "id": "com.run.tower.defense",
+      "name": "Kingshot",
+      "developer": "Century Games PTE. LTD.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.run.tower.defense"
+    },
+    {
+      "rank": 28,
+      "id": "com.soccer.score.star",
+      "name": "Soccer Superstar",
+      "developer": "Real Freestyle Soccer",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.soccer.score.star"
+    },
+    {
+      "rank": 29,
+      "id": "com.fatmerge.global",
+      "name": "Tasty Travels: Merge Game",
+      "developer": "Century Games PTE. LTD.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.fatmerge.global"
+    },
+    {
+      "rank": 30,
+      "id": "com.mobirix.ldwm",
+      "name": "Watermelon Maker 2048",
+      "developer": "mobirix",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.mobirix.ldwm"
+    },
+    {
+      "rank": 31,
+      "id": "com.nianticlabs.pokemongo",
+      "name": "Pokémon GO",
+      "developer": "Niantic, Inc.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.nianticlabs.pokemongo"
+    },
+    {
+      "rank": 32,
+      "id": "color.number.paint.pixle.art.sort.jigsaw",
+      "name": "Jewel Coloring",
+      "developer": "TaTa Game Technology Limited",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=color.number.paint.pixle.art.sort.jigsaw"
+    },
+    {
+      "rank": 33,
+      "id": "com.puzzlegames.puzzlebrickslegend",
+      "name": "Color Block: Combo Blast",
+      "developer": "Ivy",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.puzzlegames.puzzlebrickslegend"
+    },
+    {
+      "rank": 34,
+      "id": "beats.color.sing.star.rush",
+      "name": "Magic Level 9 Music Piano Game",
+      "developer": "Beatwave Studio",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=beats.color.sing.star.rush"
+    },
+    {
+      "rank": 35,
+      "id": "com.funplus.ts.global",
+      "name": "Tiles Survive!",
+      "developer": "FunPlus International AG",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.funplus.ts.global"
+    },
+    {
+      "rank": 36,
+      "id": "com.dlw.kr.google",
+      "name": "시티 데몬헌터즈: 각성자들",
+      "developer": "Dawn Breaking Game",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.dlw.kr.google"
+    },
+    {
+      "rank": 37,
+      "id": "com.phs.global",
+      "name": "Last Asylum: Plague",
+      "developer": "37GAMES GLOBAL",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.phs.global"
+    },
+    {
+      "rank": 38,
+      "id": "com.riftsky.mhg.kr.gp",
+      "name": "더 코지 플로리스트",
+      "developer": "Riftsky Games",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.riftsky.mhg.kr.gp"
+    },
+    {
+      "rank": 39,
+      "id": "com.xman.kr.gp",
+      "name": "X 클래시",
+      "developer": "Glaciers Game",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.xman.kr.gp"
+    },
+    {
+      "rank": 40,
+      "id": "com.dreamgames.royalkingdom",
+      "name": "Royal Kingdom",
+      "developer": "Dream Games, Ltd.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.dreamgames.royalkingdom"
+    },
+    {
+      "rank": 41,
+      "id": "com.nebula.mahjongtile",
+      "name": "Mahjong Blast",
+      "developer": "Nebula  Studio",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.nebula.mahjongtile"
+    },
+    {
+      "rank": 42,
+      "id": "com.nexon.ma",
+      "name": "MapleStory : Idle RPG",
+      "developer": "NEXON Company",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.nexon.ma"
+    },
+    {
+      "rank": 43,
+      "id": "pics.karaage.sokutaiho",
+      "name": "Patrol Time! Instant Arrest!",
+      "developer": "KARAAGE GAMES LLC.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=pics.karaage.sokutaiho"
+    },
+    {
+      "rank": 44,
+      "id": "com.vitastudio.mahjong",
+      "name": "Vita Mahjong",
+      "developer": "Vita Studio.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.vitastudio.mahjong"
+    },
+    {
+      "rank": 45,
+      "id": "com.supercell.brawlstars",
+      "name": "Brawl Stars",
+      "developer": "Supercell",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.supercell.brawlstars"
+    },
+    {
+      "rank": 46,
+      "id": "com.pocket.sort.coin.puzzle.game",
+      "name": "Pocket Sort: Coin Merge Puzzle",
+      "developer": "SayGames Ltd",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.pocket.sort.coin.puzzle.game"
+    },
+    {
+      "rank": 47,
+      "id": "net.gameduo.gv",
+      "name": "Cat Hero : Idle RPG",
+      "developer": "Gameduo",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=net.gameduo.gv"
+    },
+    {
+      "rank": 48,
+      "id": "com.netflix.NGP.TocaHairSalon4",
+      "name": "Toca Boca Hair Salon 4 NETFLIX",
+      "developer": "Netflix, Inc.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.netflix.NGP.TocaHairSalon4"
+    },
+    {
+      "rank": 49,
+      "id": "com.gof.global",
+      "name": "Whiteout Survival",
+      "developer": "Century Games PTE. LTD.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.gof.global"
+    },
+    {
+      "rank": 50,
+      "id": "com.playrix.township",
+      "name": "Township",
+      "developer": "Playrix",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.playrix.township"
+    }
+  ],
+  "play:kr:top-grossing:all": [
+    {
+      "rank": 1,
+      "id": "com.google.android.apps.subscriptions.red",
+      "name": "Google One",
+      "developer": "Google LLC",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.subscriptions.red"
+    },
+    {
+      "rank": 2,
+      "id": "com.openai.chatgpt",
+      "name": "ChatGPT",
+      "developer": "OpenAI",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.openai.chatgpt"
+    },
+    {
+      "rank": 3,
+      "id": "com.nexon.mod",
+      "name": "MapleStory Worlds",
+      "developer": "Toben Studio Inc.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.nexon.mod"
+    },
+    {
+      "rank": 4,
+      "id": "com.nhn.android.webtoon",
+      "name": "네이버 웹툰 - Naver Webtoon",
+      "developer": "NAVER WEBTOON",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.nhn.android.webtoon"
+    },
+    {
+      "rank": 5,
+      "id": "com.kakao.talk",
+      "name": "KakaoTalk : Messenger",
+      "developer": "Kakao Corp.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.kakao.talk"
+    },
+    {
+      "rank": 6,
+      "id": "com.ss.android.ugc.trill",
+      "name": "TikTok",
+      "developer": "TikTok Pte. Ltd.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.ss.android.ugc.trill"
+    },
+    {
+      "rank": 7,
+      "id": "com.kakao.page",
+      "name": "KakaoPage",
+      "developer": "Kakao Entertainment Corp.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.kakao.page"
+    },
+    {
+      "rank": 8,
+      "id": "net.cj.cjhv.gs.tving",
+      "name": "TVING",
+      "developer": "Tving Co Ltd",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=net.cj.cjhv.gs.tving"
+    },
+    {
+      "rank": 9,
+      "id": "com.nhn.android.nbooks",
+      "name": "SERIES",
+      "developer": "NAVER WEBTOON",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.nhn.android.nbooks"
+    },
+    {
+      "rank": 10,
+      "id": "com.ss.android.ugc.tiktok.lite",
+      "name": "TikTok Lite",
+      "developer": "TikTok Pte. Ltd.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.ss.android.ugc.tiktok.lite"
+    },
+    {
+      "rank": 11,
+      "id": "com.iloen.melon",
+      "name": "멜론(Melon)",
+      "developer": "Kakao Entertainment  Corp.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.iloen.melon"
+    },
+    {
+      "rank": 12,
+      "id": "com.anthropic.claude",
+      "name": "Claude by Anthropic",
+      "developer": "Anthropic PBC",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.anthropic.claude"
+    },
+    {
+      "rank": 13,
+      "id": "com.wrtn.character",
+      "name": "크랙 - 내가 주인공인 이세계, AI 채팅",
+      "developer": "wrtn",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.wrtn.character"
+    },
+    {
+      "rank": 14,
+      "id": "com.dramawave.app",
+      "name": "DramaWave - Dramas & Reels",
+      "developer": "SKYWORK AI PTE.LTD.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.dramawave.app"
+    },
+    {
+      "rank": 15,
+      "id": "com.netshort.abroad",
+      "name": "NetShort - Popular Dramas & TV",
+      "developer": "NETSTORY PTE. LTD.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.netshort.abroad"
+    },
+    {
+      "rank": 16,
+      "id": "com.initialcoms.ridi",
+      "name": "리디 - 웹툰, 만화, 웹소설, 전자책 모두 여기에!",
+      "developer": "RIDI Corporation",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.initialcoms.ridi"
+    },
+    {
+      "rank": 17,
+      "id": "kr.co.captv.pooqV2",
+      "name": "Wavve (웨이브)",
+      "developer": "콘텐츠웨이브",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=kr.co.captv.pooqV2"
+    },
+    {
+      "rank": 18,
+      "id": "com.coupang.mobile.play",
+      "name": "Coupang Play",
+      "developer": "Coupang Corp.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.coupang.mobile.play"
+    },
+    {
+      "rank": 19,
+      "id": "com.storymatrix.drama",
+      "name": "DramaBox - Stream Drama Shorts",
+      "developer": "STORYMATRIX",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.storymatrix.drama"
+    },
+    {
+      "rank": 20,
+      "id": "com.scatterlab.messenger",
+      "name": "zeta: AI Chat, Story, Play",
+      "developer": "Scatter Lab, Inc.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.scatterlab.messenger"
+    },
+    {
+      "rank": 21,
+      "id": "com.duolingo",
+      "name": "Duolingo: Language Lessons",
+      "developer": "Duolingo",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.duolingo"
+    },
+    {
+      "rank": 22,
+      "id": "com.navercorp.game.android.community",
+      "name": "치지직 – CHZZK",
+      "developer": "NAVER Corp.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.navercorp.game.android.community"
+    },
+    {
+      "rank": 23,
+      "id": "com.read.goodnovel",
+      "name": "GoodNovel - Booktok, Stories",
+      "developer": "GoodNovel",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.read.goodnovel"
+    },
+    {
+      "rank": 24,
+      "id": "com.lemon.lvoverseas",
+      "name": "CapCut: Photo & Video Editor",
+      "developer": "Bytedance Pte. Ltd.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.lemon.lvoverseas"
+    },
+    {
+      "rank": 25,
+      "id": "chat.melting.apppp",
+      "name": "Melting – AI Romance Chat",
+      "developer": "Watnee Inc.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=chat.melting.apppp"
+    },
+    {
+      "rank": 26,
+      "id": "laftel.net.laftel",
+      "name": "라프텔",
+      "developer": "Laftel",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=laftel.net.laftel"
+    },
+    {
+      "rank": 27,
+      "id": "com.ktmusic.geniemusic",
+      "name": "지니뮤직 - genie",
+      "developer": "(주)케이티지니뮤직",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.ktmusic.geniemusic"
+    },
+    {
+      "rank": 28,
+      "id": "com.disney.disneyplus",
+      "name": "Disney+",
+      "developer": "Disney",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.disney.disneyplus"
+    },
+    {
+      "rank": 29,
+      "id": "com.tinder",
+      "name": "Tinder Dating App: Chat & Date",
+      "developer": "Tinder LLC",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.tinder"
+    },
+    {
+      "rank": 30,
+      "id": "net.nrise.wippy",
+      "name": "위피 - 가까운 동네친구, 설레는 소개팅",
+      "developer": "NRISE",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=net.nrise.wippy"
+    },
+    {
+      "rank": 31,
+      "id": "kr.co.millie.millieshelf",
+      "name": "밀리의 서재 - 독서와 무제한 친해지리",
+      "developer": "(주)kt 밀리의 서재",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=kr.co.millie.millieshelf"
+    },
+    {
+      "rank": 32,
+      "id": "com.nwz.celebchamp",
+      "name": "CelebChamp:Vote for K-Stars",
+      "developer": "MBCPLUS",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.nwz.celebchamp"
+    },
+    {
+      "rank": 33,
+      "id": "kr.munpia.forandroid",
+      "name": "문피아 - 웹소설의 유토피아",
+      "developer": "Munpia, Inc.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=kr.munpia.forandroid"
+    },
+    {
+      "rank": 34,
+      "id": "com.wejoy.weplay.kr",
+      "name": "WePlay - 파티게임",
+      "developer": "WEJOY Pte. Ltd.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.wejoy.weplay.kr"
+    },
+    {
+      "rank": 35,
+      "id": "com.nhn.android.ndrive",
+      "name": "NAVER MYBOX",
+      "developer": "NAVER Corp.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.nhn.android.ndrive"
+    },
+    {
+      "rank": 36,
+      "id": "com.charmy.cupist",
+      "name": "글램 : 탈퇴하세요, 함께 - 소개팅 데이트 만남",
+      "developer": "Cupist Inc.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.charmy.cupist"
+    },
+    {
+      "rank": 37,
+      "id": "com.selabs.speak",
+      "name": "Speak: Language Learning",
+      "developer": "Speakeasy Labs",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.selabs.speak"
+    },
+    {
+      "rank": 38,
+      "id": "kr.co.nowcom.mobile.afreeca",
+      "name": "SOOP",
+      "developer": "SOOP Co., Ltd.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=kr.co.nowcom.mobile.afreeca"
+    },
+    {
+      "rank": 39,
+      "id": "ai.x.grok",
+      "name": "Grok - AI Chat & Video",
+      "developer": "xAI",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=ai.x.grok"
+    },
+    {
+      "rank": 40,
+      "id": "com.discord",
+      "name": "Discord - Talk, Play, Hang Out",
+      "developer": "Discord Inc.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.discord"
+    },
+    {
+      "rank": 41,
+      "id": "kr.co.pandatv.player",
+      "name": "팬더티비",
+      "developer": "DOUBLEMEDIA",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=kr.co.pandatv.player"
+    },
+    {
+      "rank": 42,
+      "id": "com.vigloo",
+      "name": "Vigloo - Premier Short Dramas",
+      "developer": "SpoonLabs",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.vigloo"
+    },
+    {
+      "rank": 43,
+      "id": "io.whif",
+      "name": "WHIF - AI Chat (BL & Romance)",
+      "developer": "벙커키즈",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=io.whif"
+    },
+    {
+      "rank": 44,
+      "id": "skplanet.musicmate",
+      "name": "FLO – 플로",
+      "developer": "Dreamus Company",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=skplanet.musicmate"
+    },
+    {
+      "rank": 45,
+      "id": "com.frograms.wplay",
+      "name": "WATCHA",
+      "developer": "Watcha Inc.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.frograms.wplay"
+    },
+    {
+      "rank": 46,
+      "id": "com.instagram.android",
+      "name": "Instagram",
+      "developer": "Instagram",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.instagram.android"
+    },
+    {
+      "rank": 47,
+      "id": "com.spotify.music",
+      "name": "Spotify: Music and Podcasts",
+      "developer": "Spotify AB",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.spotify.music"
+    },
+    {
+      "rank": 48,
+      "id": "net.daum.android.webtoon",
+      "name": "카카오웹툰 – KAKAO WEBTOON",
+      "developer": "Kakao Entertainment Corp.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=net.daum.android.webtoon"
+    },
+    {
+      "rank": 49,
+      "id": "com.smilecam.mnw",
+      "name": "캠톡 - 캠톡커와 팬을 위한 공간",
+      "developer": "mateconvergence",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.smilecam.mnw"
+    },
+    {
+      "rank": 50,
+      "id": "org.telegram.messenger",
+      "name": "Telegram",
+      "developer": "Telegram FZ-LLC",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=org.telegram.messenger"
+    }
+  ],
+  "play:kr:top-grossing:game": [
+    {
+      "rank": 1,
+      "id": "com.netmarble.sol",
+      "name": "SOL: enchant",
+      "developer": "Netmarble",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.netmarble.sol"
+    },
+    {
+      "rank": 2,
+      "id": "com.kakaogames.odin",
+      "name": "오딘: 발할라 라이징",
+      "developer": "Kakao Games Corp.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.kakaogames.odin"
+    },
+    {
+      "rank": 3,
+      "id": "com.proximabeta.nikke",
+      "name": "GODDESS OF VICTORY: NIKKE",
+      "developer": "Level Infinite",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.proximabeta.nikke"
+    },
+    {
+      "rank": 4,
+      "id": "com.ncsoft.lineagem19",
+      "name": "리니지M",
+      "developer": "NC Corporation",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.ncsoft.lineagem19"
+    },
+    {
+      "rank": 5,
+      "id": "com.gof.global",
+      "name": "Whiteout Survival",
+      "developer": "Century Games PTE. LTD.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.gof.global"
+    },
+    {
+      "rank": 6,
+      "id": "com.run.tower.defense",
+      "name": "Kingshot",
+      "developer": "Century Games PTE. LTD.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.run.tower.defense"
+    },
+    {
+      "rank": 7,
+      "id": "com.nexon.ma",
+      "name": "MapleStory : Idle RPG",
+      "developer": "NEXON Company",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.nexon.ma"
+    },
+    {
+      "rank": 8,
+      "id": "com.nhnent.pokerclassic",
+      "name": "한게임포커 클래식 : 7포커 홀덤 섯다 훌라 슬롯",
+      "developer": "NHN Corp.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.nhnent.pokerclassic"
+    },
+    {
+      "rank": 9,
+      "id": "com.fun.lastwar.gp",
+      "name": "Last War:Survival Game",
+      "developer": "FUNFLY PTE. LTD.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.fun.lastwar.gp"
+    },
+    {
+      "rank": 10,
+      "id": "com.dreamgames.royalmatch",
+      "name": "Royal Match",
+      "developer": "Dream Games, Ltd.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.dreamgames.royalmatch"
+    },
+    {
+      "rank": 11,
+      "id": "com.mergegames.gossipharbor",
+      "name": "Gossip Harbor®: Merge & Story",
+      "developer": "Microfun Limited",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.mergegames.gossipharbor"
+    },
+    {
+      "rank": 12,
+      "id": "com.roblox.client",
+      "name": "Roblox",
+      "developer": "Roblox Corporation",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.roblox.client"
+    },
+    {
+      "rank": 13,
+      "id": "com.nhnent.Qpoker",
+      "name": "한게임 포커",
+      "developer": "NHN Corp.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.nhnent.Qpoker"
+    },
+    {
+      "rank": 14,
+      "id": "com.bhk.newslgkr",
+      "name": "삼국지: 천하결전",
+      "developer": "BILIBILI",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.bhk.newslgkr"
+    },
+    {
+      "rank": 15,
+      "id": "com.nexon.devcat.mm",
+      "name": "마비노기 모바일",
+      "developer": "NEXON Company",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.nexon.devcat.mm"
+    },
+    {
+      "rank": 16,
+      "id": "com.miHoYo.GenshinImpact",
+      "name": "Genshin Impact",
+      "developer": "COGNOSPHERE PTE. LTD.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.miHoYo.GenshinImpact"
+    },
+    {
+      "rank": 17,
+      "id": "com.nianticlabs.pokemongo",
+      "name": "Pokémon GO",
+      "developer": "Niantic, Inc.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.nianticlabs.pokemongo"
+    },
+    {
+      "rank": 18,
+      "id": "com.supercell.brawlstars",
+      "name": "Brawl Stars",
+      "developer": "Supercell",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.supercell.brawlstars"
+    },
+    {
+      "rank": 19,
+      "id": "com.percent.aos.luckydefense",
+      "name": "Lucky Defense",
+      "developer": "111%",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.percent.aos.luckydefense"
+    },
+    {
+      "rank": 20,
+      "id": "com.ncsoft.aion2",
+      "name": "AION2",
+      "developer": "NC Corporation",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.ncsoft.aion2"
+    },
+    {
+      "rank": 21,
+      "id": "jp.co.ponos.battlecatskr",
+      "name": "냥코 대전쟁",
+      "developer": "PONOS Corporation",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=jp.co.ponos.battlecatskr"
+    },
+    {
+      "rank": 22,
+      "id": "com.neowiz.games.poker",
+      "name": "Pmang Poker : Casino Royal",
+      "developer": "NEOWIZ corp",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.neowiz.games.poker"
+    },
+    {
+      "rank": 23,
+      "id": "com.NHNEnt.MSudda",
+      "name": "한게임 섯다&맞고",
+      "developer": "NHN Corp.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.NHNEnt.MSudda"
+    },
+    {
+      "rank": 24,
+      "id": "com.playrix.gardenscapes",
+      "name": "Gardenscapes",
+      "developer": "Playrix",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.playrix.gardenscapes"
+    },
+    {
+      "rank": 25,
+      "id": "com.gamedots.seasideescape",
+      "name": "Seaside Escape®: Merge & Story",
+      "developer": "Microfun Limited",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.gamedots.seasideescape"
+    },
+    {
+      "rank": 26,
+      "id": "com.readygo.barrel.gp",
+      "name": "Last Z: Survival Shooter",
+      "developer": "Omnilojo Pte Ltd",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.readygo.barrel.gp"
+    },
+    {
+      "rank": 27,
+      "id": "com.kurogame.wutheringwaves.global",
+      "name": "Wuthering Waves × Cyberpunk",
+      "developer": "HK KURO GAMES LIMITED",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.kurogame.wutheringwaves.global"
+    },
+    {
+      "rank": 28,
+      "id": "com.phs.global",
+      "name": "Last Asylum: Plague",
+      "developer": "37GAMES GLOBAL",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.phs.global"
+    },
+    {
+      "rank": 29,
+      "id": "com.epidgames.trickcalrevive",
+      "name": "트릭컬 리바이브",
+      "developer": "EPIDGames",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.epidgames.trickcalrevive"
+    },
+    {
+      "rank": 30,
+      "id": "com.nexon.fo4m",
+      "name": "EA SPORTS FC Online M",
+      "developer": "NEXON Company",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.nexon.fo4m"
+    },
+    {
+      "rank": 31,
+      "id": "com.fatmerge.global",
+      "name": "Tasty Travels: Merge Game",
+      "developer": "Century Games PTE. LTD.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.fatmerge.global"
+    },
+    {
+      "rank": 32,
+      "id": "com.dreamgames.royalkingdom",
+      "name": "Royal Kingdom",
+      "developer": "Dream Games, Ltd.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.dreamgames.royalkingdom"
+    },
+    {
+      "rank": 33,
+      "id": "com.nexon.fmk",
+      "name": "FC 모바일",
+      "developer": "NEXON Company",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.nexon.fmk"
+    },
+    {
+      "rank": 34,
+      "id": "com.ncsoft.lineagew",
+      "name": "Lineage W",
+      "developer": "NC Corporation",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.ncsoft.lineagew"
+    },
+    {
+      "rank": 35,
+      "id": "com.com2us.futurecpb.android.google.global.normal",
+      "name": "컴투스프로야구V26",
+      "developer": "Com2uS",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.com2us.futurecpb.android.google.global.normal"
+    },
+    {
+      "rank": 36,
+      "id": "com.highbrow.games.dvo",
+      "name": "Dragon Village 3",
+      "developer": "highbrow",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.highbrow.games.dvo"
+    },
+    {
+      "rank": 37,
+      "id": "com.dlw.kr.google",
+      "name": "시티 데몬헌터즈: 각성자들",
+      "developer": "Dawn Breaking Game",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.dlw.kr.google"
+    },
+    {
+      "rank": 38,
+      "id": "com.pubg.krmobile",
+      "name": "PUBG Mobile",
+      "developer": "KRAFTON, Inc.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.pubg.krmobile"
+    },
+    {
+      "rank": 39,
+      "id": "com.jsjskr.google",
+      "name": "토이 삼국",
+      "developer": "Rhinos",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.jsjskr.google"
+    },
+    {
+      "rank": 40,
+      "id": "com.netmarble.thered",
+      "name": "뱀피르",
+      "developer": "Netmarble",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.netmarble.thered"
+    },
+    {
+      "rank": 41,
+      "id": "com.percent.aos.cooptd",
+      "name": "Coop TD: Together",
+      "developer": "Supermagic",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.percent.aos.cooptd"
+    },
+    {
+      "rank": 42,
+      "id": "com.com2us.smon.normal.freefull.google.kr.android.common",
+      "name": "Summoners War X Frieren",
+      "developer": "Com2uS",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.com2us.smon.normal.freefull.google.kr.android.common"
+    },
+    {
+      "rank": 43,
+      "id": "com.kr.firegp",
+      "name": "I9: 인페르노 나인",
+      "developer": "Leniu Technology Co., Limited",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.kr.firegp"
+    },
+    {
+      "rank": 44,
+      "id": "com.bandainamcoent.gget_WW",
+      "name": "SD Gundam G Generation ETERNAL",
+      "developer": "Bandai Namco Entertainment Inc.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.bandainamcoent.gget_WW"
+    },
+    {
+      "rank": 45,
+      "id": "com.kr.lfhsgp",
+      "name": "그레이 사가",
+      "developer": "Leniu Technology Co., Limited",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.kr.lfhsgp"
+    },
+    {
+      "rank": 46,
+      "id": "com.webzen.mumonarch2.google",
+      "name": "뮤 모나크2",
+      "developer": "Webzen Inc.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.webzen.mumonarch2.google"
+    },
+    {
+      "rank": 47,
+      "id": "com.ncsoft.lineage2m19",
+      "name": "리니지2M",
+      "developer": "NC Corporation",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.ncsoft.lineage2m19"
+    },
+    {
+      "rank": 48,
+      "id": "com.zempot.wplpoker",
+      "name": "WPL:Texas Hold'em, MTT, Sit&Go",
+      "developer": "Zempot INC.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.zempot.wplpoker"
+    },
+    {
+      "rank": 49,
+      "id": "com.kakaogames.umamusume",
+      "name": "우마무스메 프리티 더비",
+      "developer": "Kakao Games Corp.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.kakaogames.umamusume"
+    },
+    {
+      "rank": 50,
+      "id": "com.ncsoft.lineagem",
+      "name": "리니지M(12)",
+      "developer": "NC Corporation",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.ncsoft.lineagem"
+    }
+  ],
+  "play:us:top-free:all": [
+    {
+      "rank": 1,
+      "id": "com.google.android.apps.messaging",
+      "name": "Google Messages",
+      "developer": "Google LLC",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.messaging"
+    },
+    {
+      "rank": 2,
+      "id": "com.peacocktv.peacockandroid",
+      "name": "Peacock TV: Stream TV & Movies",
+      "developer": "Peacock TV LLC",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.peacocktv.peacockandroid"
+    },
+    {
+      "rank": 3,
+      "id": "com.ss.android.ugc.tiktok.pro",
+      "name": "TikTok Pro - Events",
+      "developer": "TikTok Pte. Ltd.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.ss.android.ugc.tiktok.pro"
+    },
+    {
+      "rank": 4,
+      "id": "com.fox.foxone",
+      "name": "FOX One: Live News, Sports, TV",
+      "developer": "Fox Digital Services, LLC",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.fox.foxone"
+    },
+    {
+      "rank": 5,
+      "id": "com.kalshi.mobile",
+      "name": "Kalshi: Trade the World Cup",
+      "developer": "KalshiEX LLC",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.kalshi.mobile"
+    },
+    {
+      "rank": 6,
+      "id": "com.openai.chatgpt",
+      "name": "ChatGPT",
+      "developer": "OpenAI",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.openai.chatgpt"
+    },
+    {
+      "rank": 7,
+      "id": "com.facebook.stella",
+      "name": "Meta AI",
+      "developer": "Meta Platforms, Inc.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.facebook.stella"
+    },
+    {
+      "rank": 8,
+      "id": "com.ss.android.ttmd.video",
+      "name": "PineDrama - Short Dramas",
+      "developer": "TikTok Pte. Ltd.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.ss.android.ttmd.video"
+    },
+    {
+      "rank": 9,
+      "id": "com.zhiliaoapp.musically",
+      "name": "TikTok - Videos, Shop & LIVE",
+      "developer": "TikTok Pte. Ltd.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.zhiliaoapp.musically"
+    },
+    {
+      "rank": 10,
+      "id": "easy.launcher",
+      "name": "Easy Homescreen",
+      "developer": "Homescreen Apps",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=easy.launcher"
+    },
+    {
+      "rank": 11,
+      "id": "com.dramawave.app",
+      "name": "DramaWave - Dramas & Reels",
+      "developer": "SKYWORK AI PTE.LTD.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.dramawave.app"
+    },
+    {
+      "rank": 12,
+      "id": "com.einnovation.temu",
+      "name": "Temu: Shop Like a Billionaire",
+      "developer": "Temu",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.einnovation.temu"
+    },
+    {
+      "rank": 13,
+      "id": "com.tiktok.lite.go",
+      "name": "TikTok Lite - Faster TikTok",
+      "developer": "TikTok Pte. Ltd.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.tiktok.lite.go"
+    },
+    {
+      "rank": 14,
+      "id": "com.whatsapp",
+      "name": "WhatsApp Messenger",
+      "developer": "WhatsApp LLC",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.whatsapp"
+    },
+    {
+      "rank": 15,
+      "id": "com.storymatrix.drama",
+      "name": "DramaBox - Stream Drama Shorts",
+      "developer": "STORYMATRIX",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.storymatrix.drama"
+    },
+    {
+      "rank": 16,
+      "id": "com.instagram.android",
+      "name": "Instagram",
+      "developer": "Instagram",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.instagram.android"
+    },
+    {
+      "rank": 17,
+      "id": "com.twitter.android",
+      "name": "X",
+      "developer": "X Corp.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.twitter.android"
+    },
+    {
+      "rank": 18,
+      "id": "com.newleaf.app.android.victor",
+      "name": "ReelShort - Stream Drama & TV",
+      "developer": "NewLeaf Publishing",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.newleaf.app.android.victor"
+    },
+    {
+      "rank": 19,
+      "id": "com.storyreel.tv.android",
+      "name": "StoryReel: Exclusive Drama",
+      "developer": "Equinox Enterprises‌ Technology Limited",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.storyreel.tv.android"
+    },
+    {
+      "rank": 20,
+      "id": "com.snapchat.android",
+      "name": "Snapchat",
+      "developer": "Snap Inc",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.snapchat.android"
+    },
+    {
+      "rank": 21,
+      "id": "com.soundcontroller.loudspeaker.volume.manager.android",
+      "name": "Volume Control Sound Launcher",
+      "developer": "AtomApplications",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.soundcontroller.loudspeaker.volume.manager.android"
+    },
+    {
+      "rank": 22,
+      "id": "com.freecash.app2",
+      "name": "Freecash: Earn Money",
+      "developer": "Freecash",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.freecash.app2"
+    },
+    {
+      "rank": 23,
+      "id": "com.lemon.lvoverseas",
+      "name": "CapCut - Video Editor",
+      "developer": "Bytedance Pte. Ltd.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.lemon.lvoverseas"
+    },
+    {
+      "rank": 24,
+      "id": "com.whatnot_mobile",
+      "name": "Whatnot: Shop, Sell, Connect",
+      "developer": "Whatnot Inc.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.whatnot_mobile"
+    },
+    {
+      "rank": 25,
+      "id": "com.squareup.cash",
+      "name": "Cash App",
+      "developer": "Block, Inc.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.squareup.cash"
+    },
+    {
+      "rank": 26,
+      "id": "com.facebook.katana",
+      "name": "Facebook",
+      "developer": "Meta Platforms, Inc.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.facebook.katana"
+    },
+    {
+      "rank": 27,
+      "id": "com.vibeshort.visualnovel.android",
+      "name": "VibeShort: AI Comic Dramas",
+      "developer": "AGILE QUADRANT MEDIA LIMITED",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.vibeshort.visualnovel.android"
+    },
+    {
+      "rank": 28,
+      "id": "com.storage.androidcleaner",
+      "name": "Cleanup: Phone Storage Cleaner",
+      "developer": "Deep Flow Apps",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.storage.androidcleaner"
+    },
+    {
+      "rank": 29,
+      "id": "com.netflix.mediaclient",
+      "name": "Netflix",
+      "developer": "Netflix, Inc.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.netflix.mediaclient"
+    },
+    {
+      "rank": 30,
+      "id": "com.tubitv",
+      "name": "Tubi: Free Movies & Live TV",
+      "developer": "Tubi TV",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.tubitv"
+    },
+    {
+      "rank": 31,
+      "id": "com.hotmini.drama.hot",
+      "name": "HotMiniDrama",
+      "developer": "Tasawq",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.hotmini.drama.hot"
+    },
+    {
+      "rank": 32,
+      "id": "com.trusted.pdfeditor.pdfreader",
+      "name": "PDF Reader, PDF Viewer",
+      "developer": "Office Suite Pro",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.trusted.pdfeditor.pdfreader"
+    },
+    {
+      "rank": 33,
+      "id": "com.cleaner.toolset.atpfariore",
+      "name": "Phone Cleaner & Toolset",
+      "developer": "Joy Hubs",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.cleaner.toolset.atpfariore"
+    },
+    {
+      "rank": 34,
+      "id": "org.telegram.messenger",
+      "name": "Telegram",
+      "developer": "Telegram FZ-LLC",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=org.telegram.messenger"
+    },
+    {
+      "rank": 35,
+      "id": "com.walmart.android",
+      "name": "Walmart: Shopping & Savings",
+      "developer": "Walmart",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.walmart.android"
+    },
+    {
+      "rank": 36,
+      "id": "com.telemundo.awe",
+      "name": "Telemundo: Series y TV en vivo",
+      "developer": "NBCUniversal Media, LLC",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.telemundo.awe"
+    },
+    {
+      "rank": 37,
+      "id": "com.zzkko",
+      "name": "SHEIN-Shopping Online",
+      "developer": "Roadget Business PTE. LTD.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.zzkko"
+    },
+    {
+      "rank": 38,
+      "id": "com.lidl.eci.lidlplus",
+      "name": "Lidl Plus",
+      "developer": "Lidl",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.lidl.eci.lidlplus"
+    },
+    {
+      "rank": 39,
+      "id": "com.life360.android.safetymapd",
+      "name": "Life360: Family Safety & GPS",
+      "developer": "Life360",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.life360.android.safetymapd"
+    },
+    {
+      "rank": 40,
+      "id": "com.amazon.avod.thirdpartyclient",
+      "name": "Prime Video",
+      "developer": "Amazon Mobile LLC",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.amazon.avod.thirdpartyclient"
+    },
+    {
+      "rank": 41,
+      "id": "com.discord",
+      "name": "Discord - Talk, Play, Hang Out",
+      "developer": "Discord Inc.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.discord"
+    },
+    {
+      "rank": 42,
+      "id": "cn.danatech.xingseus",
+      "name": "PictureThis - Plant Identifier",
+      "developer": "Glority Global Group Ltd.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=cn.danatech.xingseus"
+    },
+    {
+      "rank": 43,
+      "id": "com.anthropic.claude",
+      "name": "Claude by Anthropic",
+      "developer": "Anthropic PBC",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.anthropic.claude"
+    },
+    {
+      "rank": 44,
+      "id": "com.depop",
+      "name": "Depop - Buy & Sell Clothes",
+      "developer": "Depop",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.depop"
+    },
+    {
+      "rank": 45,
+      "id": "com.sms.messages.messanger.mmsmessages",
+      "name": "Messages For Android",
+      "developer": "Akshay Mehta",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.sms.messages.messanger.mmsmessages"
+    },
+    {
+      "rank": 46,
+      "id": "com.codeway.aitutor",
+      "name": "Learn English, Spanish: Learna",
+      "developer": "Deep Flow Apps",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.codeway.aitutor"
+    },
+    {
+      "rank": 47,
+      "id": "com.dd.doordash",
+      "name": "DoorDash: Food, Grocery, More",
+      "developer": "DoorDash",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.dd.doordash"
+    },
+    {
+      "rank": 48,
+      "id": "com.ubercab",
+      "name": "Uber - Request a ride",
+      "developer": "Uber Technologies, Inc.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.ubercab"
+    },
+    {
+      "rank": 49,
+      "id": "com.enflick.android.TextNow",
+      "name": "TextNow: Call + Text Unlimited",
+      "developer": "TextNow, Inc.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.enflick.android.TextNow"
+    },
+    {
+      "rank": 50,
+      "id": "com.instagram.barcelona",
+      "name": "Threads",
+      "developer": "Instagram",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.instagram.barcelona"
+    }
+  ],
+  "play:us:top-free:game": [
+    {
+      "rank": 1,
+      "id": "com.oakever.meowdoku",
+      "name": "Meowdoku: Brain Puzzle Games",
+      "developer": "Oakever Games",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.oakever.meowdoku"
+    },
+    {
+      "rank": 2,
+      "id": "com.moonactive.holestars",
+      "name": "Hole Stars: Puzzle Game",
+      "developer": "Moon Active",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.moonactive.holestars"
+    },
+    {
+      "rank": 3,
+      "id": "com.roblox.client",
+      "name": "Roblox",
+      "developer": "Roblox Corporation",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.roblox.client"
+    },
+    {
+      "rank": 4,
+      "id": "com.vitastudio.mahjong",
+      "name": "Vita Mahjong",
+      "developer": "Vita Studio.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.vitastudio.mahjong"
+    },
+    {
+      "rank": 5,
+      "id": "com.ecffri.arrows",
+      "name": "Arrows – Puzzle Escape",
+      "developer": "Lessmore GmbH",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.ecffri.arrows"
+    },
+    {
+      "rank": 6,
+      "id": "com.oakever.arrows",
+      "name": "Amaze GO!",
+      "developer": "Oakever Games",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.oakever.arrows"
+    },
+    {
+      "rank": 7,
+      "id": "com.fungames.blockcraft",
+      "name": "Block Craft 3D：Building Game",
+      "developer": "Wildlife Studios",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.fungames.blockcraft"
+    },
+    {
+      "rank": 8,
+      "id": "com.block.juggle",
+      "name": "Block Blast!",
+      "developer": "HungryStudio",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.block.juggle"
+    },
+    {
+      "rank": 9,
+      "id": "com.run.tower.defense",
+      "name": "Kingshot",
+      "developer": "Century Games PTE. LTD.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.run.tower.defense"
+    },
+    {
+      "rank": 10,
+      "id": "com.tripledot.blockbash",
+      "name": "Woodoku Blast",
+      "developer": "Tripledot Studios Limited",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.tripledot.blockbash"
+    },
+    {
+      "rank": 11,
+      "id": "com.puzzlegames.puzzlebrickslegend",
+      "name": "Color Block: Combo Blast",
+      "developer": "Ivy",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.puzzlegames.puzzlebrickslegend"
+    },
+    {
+      "rank": 12,
+      "id": "jp.co.goodroid.hyper.busflow",
+      "name": "Bus Traffic Fever!",
+      "developer": "GOODROID,Inc.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=jp.co.goodroid.hyper.busflow"
+    },
+    {
+      "rank": 13,
+      "id": "com.scopely.monopolygo",
+      "name": "MONOPOLY GO!",
+      "developer": "Scopely",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.scopely.monopolygo"
+    },
+    {
+      "rank": 14,
+      "id": "com.grandgames.magicsort",
+      "name": "Magic Sort!",
+      "developer": "Grand Games A.Ş.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.grandgames.magicsort"
+    },
+    {
+      "rank": 15,
+      "id": "com.soccer.score.star",
+      "name": "Soccer Superstar",
+      "developer": "Real Freestyle Soccer",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.soccer.score.star"
+    },
+    {
+      "rank": 16,
+      "id": "io.voodoo.paper2",
+      "name": "Paper.io 2",
+      "developer": "VOODOO",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=io.voodoo.paper2"
+    },
+    {
+      "rank": 17,
+      "id": "com.mergegames.gossipharbor",
+      "name": "Gossip Harbor: Merge & Story",
+      "developer": "Microfun Limited",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.mergegames.gossipharbor"
+    },
+    {
+      "rank": 18,
+      "id": "com.playrix.township",
+      "name": "Township",
+      "developer": "Playrix",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.playrix.township"
+    },
+    {
+      "rank": 19,
+      "id": "com.easybrain.arrow.puzzle.game",
+      "name": "Arrow Puzzle: Tap Puzzle Games",
+      "developer": "Easybrain",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.easybrain.arrow.puzzle.game"
+    },
+    {
+      "rank": 20,
+      "id": "com.loomgames.pixelflow",
+      "name": "Pixel Flow!",
+      "developer": "Loom Games A.Ş.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.loomgames.pixelflow"
+    },
+    {
+      "rank": 21,
+      "id": "com.studio27.MelonPlayground",
+      "name": "Melon Sandbox",
+      "developer": "playducky.com",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.studio27.MelonPlayground"
+    },
+    {
+      "rank": 22,
+      "id": "com.combo.yarnflow",
+      "name": "Yarn Loop",
+      "developer": "Combo Game",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.combo.yarnflow"
+    },
+    {
+      "rank": 23,
+      "id": "com.sled.surfers.game",
+      "name": "Sled Surfers",
+      "developer": "CrazyLabs LTD",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.sled.surfers.game"
+    },
+    {
+      "rank": 24,
+      "id": "com.superplaystudios.disneysolitairedreams",
+      "name": "Disney Solitaire",
+      "developer": "SuperPlay.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.superplaystudios.disneysolitairedreams"
+    },
+    {
+      "rank": 25,
+      "id": "com.youmusic.magictiles",
+      "name": "Magic Tiles 3™ - Piano Game",
+      "developer": "AMANOTES PTE. LTD.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.youmusic.magictiles"
+    },
+    {
+      "rank": 26,
+      "id": "com.oakever.jigsawcard",
+      "name": "Jigsawcard Solitaire Puzzle",
+      "developer": "Oakever Games",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.oakever.jigsawcard"
+    },
+    {
+      "rank": 27,
+      "id": "com.ea.gp.fifamobile",
+      "name": "EA SPORTS FC Soccer Mobile 26",
+      "developer": "ELECTRONIC ARTS",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.ea.gp.fifamobile"
+    },
+    {
+      "rank": 28,
+      "id": "com.oakever.tiletrip",
+      "name": "Tile Explorer - Triple Match",
+      "developer": "Oakever Games",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.oakever.tiletrip"
+    },
+    {
+      "rank": 29,
+      "id": "com.unept.leveldevil",
+      "name": "Level Devil - NOT A Troll Game",
+      "developer": "WebVentures B.V.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.unept.leveldevil"
+    },
+    {
+      "rank": 30,
+      "id": "com.nebula.mahjongtile",
+      "name": "Mahjong Blast",
+      "developer": "Nebula  Studio",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.nebula.mahjongtile"
+    },
+    {
+      "rank": 31,
+      "id": "com.totalbattle",
+      "name": "Total Battle: War Strategy",
+      "developer": "Scorewarrior",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.totalbattle"
+    },
+    {
+      "rank": 32,
+      "id": "color.number.paint.pixle.art.sort.jigsaw",
+      "name": "Jewel Coloring",
+      "developer": "TaTa Game Technology Limited",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=color.number.paint.pixle.art.sort.jigsaw"
+    },
+    {
+      "rank": 33,
+      "id": "io.supercent.linkedcubic",
+      "name": "Snake Clash!",
+      "developer": "Supercent, Inc.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=io.supercent.linkedcubic"
+    },
+    {
+      "rank": 34,
+      "id": "com.phs.global",
+      "name": "Last Asylum: Plague",
+      "developer": "37GAMES GLOBAL",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.phs.global"
+    },
+    {
+      "rank": 35,
+      "id": "com.innersloth.spacemafia",
+      "name": "Among Us",
+      "developer": "Innersloth LLC",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.innersloth.spacemafia"
+    },
+    {
+      "rank": 36,
+      "id": "com.tfgco.apps.coloring.free.color.by.number",
+      "name": "Color by Number：Coloring Games",
+      "developer": "Wildlife Studios",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.tfgco.apps.coloring.free.color.by.number"
+    },
+    {
+      "rank": 37,
+      "id": "net.supertreat.solitaire",
+      "name": "Solitaire Grand Harvest",
+      "developer": "Supertreat - A Playtika Studio",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=net.supertreat.solitaire"
+    },
+    {
+      "rank": 38,
+      "id": "com.pocket.sort.coin.puzzle.game",
+      "name": "Pocket Sort: Coin Merge Puzzle",
+      "developer": "SayGames Ltd",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.pocket.sort.coin.puzzle.game"
+    },
+    {
+      "rank": 39,
+      "id": "com.epicgames.fortnite",
+      "name": "Fortnite",
+      "developer": "Epic Games, Inc",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.epicgames.fortnite"
+    },
+    {
+      "rank": 40,
+      "id": "com.epicoro.castleclashers",
+      "name": "Castle Busters",
+      "developer": "VOODOO",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.epicoro.castleclashers"
+    },
+    {
+      "rank": 41,
+      "id": "com.arrow.out",
+      "name": "Point Out: Color Escape Puzzle",
+      "developer": "Lion Studios Plus",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.arrow.out"
+    },
+    {
+      "rank": 42,
+      "id": "com.vincentb.MobControl",
+      "name": "Mob Control",
+      "developer": "VOODOO",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.vincentb.MobControl"
+    },
+    {
+      "rank": 43,
+      "id": "com.vaultystudios.eightytwoand0",
+      "name": "82-0.com",
+      "developer": "Vaulty Studios Inc.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.vaultystudios.eightytwoand0"
+    },
+    {
+      "rank": 44,
+      "id": "com.tocaboca.tocalifeworld",
+      "name": "Toca Boca World",
+      "developer": "Toca Boca",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.tocaboca.tocalifeworld"
+    },
+    {
+      "rank": 45,
+      "id": "ball.sort.puzzle.color.sorting.bubble.games",
+      "name": "Ball Sort Puzzle - Color Game",
+      "developer": "Guru Puzzle Game",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=ball.sort.puzzle.color.sorting.bubble.games"
+    },
+    {
+      "rank": 46,
+      "id": "kidultlovin.word.zen",
+      "name": "Zen Word® - Relax Puzzle Game",
+      "developer": "Oakever Games",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=kidultlovin.word.zen"
+    },
+    {
+      "rank": 47,
+      "id": "com.kite.beachblissgame",
+      "name": "Beach Bliss: Merge Puzzle",
+      "developer": "Kite Games AS",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.kite.beachblissgame"
+    },
+    {
+      "rank": 48,
+      "id": "jp.pokemon.pokemonchampions",
+      "name": "Pokémon Champions",
+      "developer": "The Pokémon Company",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=jp.pokemon.pokemonchampions"
+    },
+    {
+      "rank": 49,
+      "id": "solitaire.patience.card.games.klondike.free",
+      "name": "Solitaire - Classic Card Games",
+      "developer": "Guru Puzzle Game",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=solitaire.patience.card.games.klondike.free"
+    },
+    {
+      "rank": 50,
+      "id": "io.supercent.pizzaidle",
+      "name": "Pizza Ready!",
+      "developer": "Supercent, Inc.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=io.supercent.pizzaidle"
+    }
+  ],
+  "play:us:top-grossing:all": [
+    {
+      "rank": 1,
+      "id": "com.google.android.apps.subscriptions.red",
+      "name": "Google One",
+      "developer": "Google LLC",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.subscriptions.red"
+    },
+    {
+      "rank": 2,
+      "id": "com.zhiliaoapp.musically",
+      "name": "TikTok - Videos, Shop & LIVE",
+      "developer": "TikTok Pte. Ltd.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.zhiliaoapp.musically"
+    },
+    {
+      "rank": 3,
+      "id": "com.openai.chatgpt",
+      "name": "ChatGPT",
+      "developer": "OpenAI",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.openai.chatgpt"
+    },
+    {
+      "rank": 4,
+      "id": "com.amazon.mShop.android.shopping",
+      "name": "Amazon Shopping",
+      "developer": "Amazon Mobile LLC",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.amazon.mShop.android.shopping"
+    },
+    {
+      "rank": 5,
+      "id": "com.peacocktv.peacockandroid",
+      "name": "Peacock TV: Stream TV & Movies",
+      "developer": "Peacock TV LLC",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.peacocktv.peacockandroid"
+    },
+    {
+      "rank": 6,
+      "id": "com.spotify.music",
+      "name": "Spotify: Music and Podcasts",
+      "developer": "Spotify AB",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.spotify.music"
+    },
+    {
+      "rank": 7,
+      "id": "com.wbd.stream",
+      "name": "HBO Max: Stream TV & Movies",
+      "developer": "WarnerMedia Global Digital Services, LLC",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.wbd.stream"
+    },
+    {
+      "rank": 8,
+      "id": "com.crunchyroll.crunchyroid",
+      "name": "Crunchyroll: Anime Streaming",
+      "developer": "Crunchyroll, LLC",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.crunchyroll.crunchyroid"
+    },
+    {
+      "rank": 9,
+      "id": "com.tinder",
+      "name": "Tinder Dating App: Chat & Date",
+      "developer": "Tinder LLC",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.tinder"
+    },
+    {
+      "rank": 10,
+      "id": "com.radio.pocketfm",
+      "name": "Pocket FM: Audio Series",
+      "developer": "PocketFM",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.radio.pocketfm"
+    },
+    {
+      "rank": 11,
+      "id": "com.cbs.app",
+      "name": "Paramount+",
+      "developer": "CBS Interactive, Inc.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.cbs.app"
+    },
+    {
+      "rank": 12,
+      "id": "com.anthropic.claude",
+      "name": "Claude by Anthropic",
+      "developer": "Anthropic PBC",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.anthropic.claude"
+    },
+    {
+      "rank": 13,
+      "id": "com.pandora.android",
+      "name": "Pandora - Music & Podcasts",
+      "developer": "Pandora",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.pandora.android"
+    },
+    {
+      "rank": 14,
+      "id": "com.disney.disneyplus",
+      "name": "Disney+",
+      "developer": "Disney",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.disney.disneyplus"
+    },
+    {
+      "rank": 15,
+      "id": "com.life360.android.safetymapd",
+      "name": "Life360: Family Safety & GPS",
+      "developer": "Life360",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.life360.android.safetymapd"
+    },
+    {
+      "rank": 16,
+      "id": "tv.twitch.android.app",
+      "name": "Twitch: Live Streaming",
+      "developer": "Twitch Interactive, Inc.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=tv.twitch.android.app"
+    },
+    {
+      "rank": 17,
+      "id": "co.hinge.app",
+      "name": "Hinge Dating App: Match & Date",
+      "developer": "Hinge, Inc.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=co.hinge.app"
+    },
+    {
+      "rank": 18,
+      "id": "com.linkedin.android",
+      "name": "LinkedIn: Community & Network",
+      "developer": "LinkedIn",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.linkedin.android"
+    },
+    {
+      "rank": 19,
+      "id": "com.discord",
+      "name": "Discord - Talk, Play, Hang Out",
+      "developer": "Discord Inc.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.discord"
+    },
+    {
+      "rank": 20,
+      "id": "com.newleaf.app.android.victor",
+      "name": "ReelShort - Stream Drama & TV",
+      "developer": "NewLeaf Publishing",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.newleaf.app.android.victor"
+    },
+    {
+      "rank": 21,
+      "id": "com.bumble.app",
+      "name": "Bumble Dating App: Meet & Date",
+      "developer": "Bumble Holding Limited",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.bumble.app"
+    },
+    {
+      "rank": 22,
+      "id": "air.com.vudu.air.DownloaderTablet",
+      "name": "Fandango at Home: Movies & TV",
+      "developer": "Fandango at Home",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=air.com.vudu.air.DownloaderTablet"
+    },
+    {
+      "rank": 23,
+      "id": "com.grindrapp.android",
+      "name": "Grindr - Gay Dating & Chat",
+      "developer": "Grindr LLC",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.grindrapp.android"
+    },
+    {
+      "rank": 24,
+      "id": "org.telegram.messenger",
+      "name": "Telegram",
+      "developer": "Telegram FZ-LLC",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=org.telegram.messenger"
+    },
+    {
+      "rank": 25,
+      "id": "com.duolingo",
+      "name": "Duolingo: Language Lessons",
+      "developer": "Duolingo",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.duolingo"
+    },
+    {
+      "rank": 26,
+      "id": "com.lemon.lvoverseas",
+      "name": "CapCut - Video Editor",
+      "developer": "Bytedance Pte. Ltd.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.lemon.lvoverseas"
+    },
+    {
+      "rank": 27,
+      "id": "com.snapchat.android",
+      "name": "Snapchat",
+      "developer": "Snap Inc",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.snapchat.android"
+    },
+    {
+      "rank": 28,
+      "id": "com.microsoft.skydrive",
+      "name": "Microsoft OneDrive",
+      "developer": "Microsoft Corporation",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.skydrive"
+    },
+    {
+      "rank": 29,
+      "id": "com.storymatrix.drama",
+      "name": "DramaBox - Stream Drama Shorts",
+      "developer": "STORYMATRIX",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.storymatrix.drama"
+    },
+    {
+      "rank": 30,
+      "id": "ai.x.grok",
+      "name": "Grok - AI Chat & Video",
+      "developer": "xAI",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=ai.x.grok"
+    },
+    {
+      "rank": 31,
+      "id": "com.amazon.avod.thirdpartyclient",
+      "name": "Prime Video",
+      "developer": "Amazon Mobile LLC",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.amazon.avod.thirdpartyclient"
+    },
+    {
+      "rank": 32,
+      "id": "com.facebook.katana",
+      "name": "Facebook",
+      "developer": "Meta Platforms, Inc.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.facebook.katana"
+    },
+    {
+      "rank": 33,
+      "id": "com.dramawave.app",
+      "name": "DramaWave - Dramas & Reels",
+      "developer": "SKYWORK AI PTE.LTD.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.dramawave.app"
+    },
+    {
+      "rank": 34,
+      "id": "com.canva.editor",
+      "name": "Canva: AI Photo & Video Editor",
+      "developer": "Canva",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.canva.editor"
+    },
+    {
+      "rank": 35,
+      "id": "com.hualai",
+      "name": "Wyze - Never Wonder",
+      "developer": "Wyze Labs Inc.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.hualai"
+    },
+    {
+      "rank": 36,
+      "id": "com.fitbit.FitbitMobile",
+      "name": "Google Health (Fitbit)",
+      "developer": "Google LLC",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.fitbit.FitbitMobile"
+    },
+    {
+      "rank": 37,
+      "id": "cn.danatech.xingseus",
+      "name": "PictureThis - Plant Identifier",
+      "developer": "Glority Global Group Ltd.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=cn.danatech.xingseus"
+    },
+    {
+      "rank": 38,
+      "id": "sg.bigo.live",
+      "name": "Bigo Live - Live Streaming App",
+      "developer": "Bigo Technology Pte. Ltd.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=sg.bigo.live"
+    },
+    {
+      "rank": 39,
+      "id": "com.dropbox.android",
+      "name": "Dropbox: Secure Cloud Storage",
+      "developer": "Dropbox, Inc.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android"
+    },
+    {
+      "rank": 40,
+      "id": "com.instagram.android",
+      "name": "Instagram",
+      "developer": "Instagram",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.instagram.android"
+    },
+    {
+      "rank": 41,
+      "id": "com.cbs.ott",
+      "name": "Paramount+",
+      "developer": "CBS Interactive, Inc.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.cbs.ott"
+    },
+    {
+      "rank": 42,
+      "id": "com.gc.teammanager",
+      "name": "GameChanger",
+      "developer": "GameChanger Media",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.gc.teammanager"
+    },
+    {
+      "rank": 43,
+      "id": "com.newreading.goodreels",
+      "name": "GoodShort - Short Dramas Hub",
+      "developer": "GoodNovel",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.newreading.goodreels"
+    },
+    {
+      "rank": 44,
+      "id": "com.symantec.mobilesecurity",
+      "name": "Norton360 Antivirus & Security",
+      "developer": "NortonMobile",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.symantec.mobilesecurity"
+    },
+    {
+      "rank": 45,
+      "id": "com.adobe.reader",
+      "name": "Adobe Acrobat Reader: Edit PDF",
+      "developer": "Adobe",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.adobe.reader"
+    },
+    {
+      "rank": 46,
+      "id": "com.vidangel.thechosen",
+      "name": "Angel: Watch Movies & TV Shows",
+      "developer": "Angel Studios, Inc.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.vidangel.thechosen"
+    },
+    {
+      "rank": 47,
+      "id": "onxmaps.hunt",
+      "name": "onX Hunt: Offline Hunting Maps",
+      "developer": "onXmaps",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=onxmaps.hunt"
+    },
+    {
+      "rank": 48,
+      "id": "com.apple.android.music",
+      "name": "Apple Music",
+      "developer": "Apple",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.apple.android.music"
+    },
+    {
+      "rank": 49,
+      "id": "com.apple.atve.androidtv.appletv",
+      "name": "Apple TV: Shows, Movies & More",
+      "developer": "Apple",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.apple.atve.androidtv.appletv"
+    },
+    {
+      "rank": 50,
+      "id": "com.discovery.discoveryplus.mobile",
+      "name": "discovery+ | Stream TV Shows",
+      "developer": "Discovery Communications LLC",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.discovery.discoveryplus.mobile"
+    }
+  ],
+  "play:us:top-grossing:game": [
+    {
+      "rank": 1,
+      "id": "com.scopely.monopolygo",
+      "name": "MONOPOLY GO!",
+      "developer": "Scopely",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.scopely.monopolygo"
+    },
+    {
+      "rank": 2,
+      "id": "com.roblox.client",
+      "name": "Roblox",
+      "developer": "Roblox Corporation",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.roblox.client"
+    },
+    {
+      "rank": 3,
+      "id": "com.nianticlabs.pokemongo",
+      "name": "Pokémon GO",
+      "developer": "Niantic, Inc.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.nianticlabs.pokemongo"
+    },
+    {
+      "rank": 4,
+      "id": "com.king.candycrushsaga",
+      "name": "Candy Crush Saga",
+      "developer": "King",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.king.candycrushsaga"
+    },
+    {
+      "rank": 5,
+      "id": "com.dreamgames.royalmatch",
+      "name": "Royal Match",
+      "developer": "Dream Games, Ltd.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.dreamgames.royalmatch"
+    },
+    {
+      "rank": 6,
+      "id": "com.moonactive.coinmaster",
+      "name": "Coin Master",
+      "developer": "Moon Active",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.moonactive.coinmaster"
+    },
+    {
+      "rank": 7,
+      "id": "com.mergegames.gossipharbor",
+      "name": "Gossip Harbor: Merge & Story",
+      "developer": "Microfun Limited",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.mergegames.gossipharbor"
+    },
+    {
+      "rank": 8,
+      "id": "com.run.tower.defense",
+      "name": "Kingshot",
+      "developer": "Century Games PTE. LTD.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.run.tower.defense"
+    },
+    {
+      "rank": 9,
+      "id": "com.playrix.township",
+      "name": "Township",
+      "developer": "Playrix",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.playrix.township"
+    },
+    {
+      "rank": 10,
+      "id": "com.dreamgames.royalkingdom",
+      "name": "Royal Kingdom",
+      "developer": "Dream Games, Ltd.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.dreamgames.royalkingdom"
+    },
+    {
+      "rank": 11,
+      "id": "com.fun.lastwar.gp",
+      "name": "Last War:Survival Game",
+      "developer": "FUNFLY PTE. LTD.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.fun.lastwar.gp"
+    },
+    {
+      "rank": 12,
+      "id": "com.gof.global",
+      "name": "Whiteout Survival",
+      "developer": "Century Games PTE. LTD.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.gof.global"
+    },
+    {
+      "rank": 13,
+      "id": "com.aniplex.fategrandorder.en",
+      "name": "Fate/Grand Order (English)",
+      "developer": "Aniplex Inc.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.aniplex.fategrandorder.en"
+    },
+    {
+      "rank": 14,
+      "id": "com.activision.callofduty.shooter",
+      "name": "Call of Duty®: Mobile",
+      "developer": "Activision Publishing, Inc.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.activision.callofduty.shooter"
+    },
+    {
+      "rank": 15,
+      "id": "net.peakgames.toonblast",
+      "name": "Toon Blast",
+      "developer": "Peak",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=net.peakgames.toonblast"
+    },
+    {
+      "rank": 16,
+      "id": "com.readygo.barrel.gp",
+      "name": "Last Z: Survival Shooter",
+      "developer": "Omnilojo Pte Ltd",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.readygo.barrel.gp"
+    },
+    {
+      "rank": 17,
+      "id": "com.dts.freefireth",
+      "name": "Free Fire: 9th Anniversary",
+      "developer": "GARENA INTERNATIONAL I",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.dts.freefireth"
+    },
+    {
+      "rank": 18,
+      "id": "com.williamsinteractive.jackpotparty",
+      "name": "Jackpot Party Casino Slots",
+      "developer": "SciPlay",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.williamsinteractive.jackpotparty"
+    },
+    {
+      "rank": 19,
+      "id": "com.supercell.clashofclans",
+      "name": "Clash of Clans",
+      "developer": "Supercell",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.supercell.clashofclans"
+    },
+    {
+      "rank": 20,
+      "id": "com.proximabeta.nikke",
+      "name": "GODDESS OF VICTORY: NIKKE",
+      "developer": "Level Infinite",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.proximabeta.nikke"
+    },
+    {
+      "rank": 21,
+      "id": "com.totalbattle",
+      "name": "Total Battle: War Strategy",
+      "developer": "Scorewarrior",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.totalbattle"
+    },
+    {
+      "rank": 22,
+      "id": "air.com.buffalo_studios.newflashbingo",
+      "name": "Bingo Blitz™️ - Bingo Games",
+      "developer": "Playtika Santa Monica",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=air.com.buffalo_studios.newflashbingo"
+    },
+    {
+      "rank": 23,
+      "id": "com.playrix.gardenscapes",
+      "name": "Gardenscapes",
+      "developer": "Playrix",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.playrix.gardenscapes"
+    },
+    {
+      "rank": 24,
+      "id": "com.superplaystudios.disneysolitairedreams",
+      "name": "Disney Solitaire",
+      "developer": "SuperPlay.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.superplaystudios.disneysolitairedreams"
+    },
+    {
+      "rank": 25,
+      "id": "com.topgamesinc.evony",
+      "name": "Evony: The King's Return",
+      "developer": "TG Inc.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.topgamesinc.evony"
+    },
+    {
+      "rank": 26,
+      "id": "com.zjcs.android.us",
+      "name": "Sword x Staff",
+      "developer": "BOLTRAY GAMES",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.zjcs.android.us"
+    },
+    {
+      "rank": 27,
+      "id": "com.king.candycrushsodasaga",
+      "name": "Candy Crush Soda Saga",
+      "developer": "King",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.king.candycrushsodasaga"
+    },
+    {
+      "rank": 28,
+      "id": "com.productmadness.lightninglink",
+      "name": "Lightning Link Casino Slots",
+      "developer": "Product Madness",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.productmadness.lightninglink"
+    },
+    {
+      "rank": 29,
+      "id": "com.playrix.fishdomdd.gplay",
+      "name": "Fishdom",
+      "developer": "Playrix",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.playrix.fishdomdd.gplay"
+    },
+    {
+      "rank": 30,
+      "id": "net.peakgames.match",
+      "name": "Match Factory!",
+      "developer": "Peak",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=net.peakgames.match"
+    },
+    {
+      "rank": 31,
+      "id": "com.loomgames.pixelflow",
+      "name": "Pixel Flow!",
+      "developer": "Loom Games A.Ş.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.loomgames.pixelflow"
+    },
+    {
+      "rank": 32,
+      "id": "com.tencent.ig",
+      "name": "PUBG MOBILE",
+      "developer": "Level Infinite",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.tencent.ig"
+    },
+    {
+      "rank": 33,
+      "id": "com.productmadness.cashmancasino",
+      "name": "Cashman Casino Slots Games",
+      "developer": "Product Madness",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.productmadness.cashmancasino"
+    },
+    {
+      "rank": 34,
+      "id": "com.superplaystudios.dicedreams",
+      "name": "Dice Dreams™️",
+      "developer": "SuperPlay.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.superplaystudios.dicedreams"
+    },
+    {
+      "rank": 35,
+      "id": "com.playrix.homescapes",
+      "name": "Homescapes",
+      "developer": "Playrix",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.playrix.homescapes"
+    },
+    {
+      "rank": 36,
+      "id": "com.fatmerge.global",
+      "name": "Tasty Travels: Merge Game",
+      "developer": "Century Games PTE. LTD.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.fatmerge.global"
+    },
+    {
+      "rank": 37,
+      "id": "com.diamondlife.slots.vegas.free",
+      "name": "Lotsa Slots - Casino Games",
+      "developer": "SpinX Games Limited",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.diamondlife.slots.vegas.free"
+    },
+    {
+      "rank": 38,
+      "id": "com.homagames.studio.allinhole",
+      "name": "All in Hole: Black Hole Games",
+      "developer": "Homa",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.homagames.studio.allinhole"
+    },
+    {
+      "rank": 39,
+      "id": "com.phs.global",
+      "name": "Last Asylum: Plague",
+      "developer": "37GAMES GLOBAL",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.phs.global"
+    },
+    {
+      "rank": 40,
+      "id": "com.moonactive.cmboard",
+      "name": "Coin Master - Board Adventure",
+      "developer": "Moon Active",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.moonactive.cmboard"
+    },
+    {
+      "rank": 41,
+      "id": "com.combo.yarnflow",
+      "name": "Yarn Loop",
+      "developer": "Combo Game",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.combo.yarnflow"
+    },
+    {
+      "rank": 42,
+      "id": "net.supertreat.solitaire",
+      "name": "Solitaire Grand Harvest",
+      "developer": "Supertreat - A Playtika Studio",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=net.supertreat.solitaire"
+    },
+    {
+      "rank": 43,
+      "id": "com.readygo.dark.gp",
+      "name": "Dark War Survival",
+      "developer": "Omnilojo Pte Ltd",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.readygo.dark.gp"
+    },
+    {
+      "rank": 44,
+      "id": "com.supercell.brawlstars",
+      "name": "Brawl Stars",
+      "developer": "Supercell",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.supercell.brawlstars"
+    },
+    {
+      "rank": 45,
+      "id": "com.supercell.hayday",
+      "name": "Hay Day",
+      "developer": "Supercell",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.supercell.hayday"
+    },
+    {
+      "rank": 46,
+      "id": "com.farlightgames.pgame.gp",
+      "name": "Clash of Critters",
+      "developer": "FARLIGHT",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.farlightgames.pgame.gp"
+    },
+    {
+      "rank": 47,
+      "id": "slots.pcg.casino.games.free.android",
+      "name": "Cash Frenzy™ - Casino Slots",
+      "developer": "SpinX Games Limited",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=slots.pcg.casino.games.free.android"
+    },
+    {
+      "rank": 48,
+      "id": "com.merge.cooking.theme.restaurant.food",
+      "name": "Merge Cooking®",
+      "developer": "Happibits Game",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.merge.cooking.theme.restaurant.food"
+    },
+    {
+      "rank": 49,
+      "id": "com.miHoYo.GenshinImpact",
+      "name": "Genshin Impact",
+      "developer": "COGNOSPHERE PTE. LTD.",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=com.miHoYo.GenshinImpact"
+    },
+    {
+      "rank": 50,
+      "id": "jp.pokemon.pokemontcgp",
+      "name": "Pokémon TCG Pocket - Card Game",
+      "developer": "The Pokémon Company",
+      "releaseDate": null,
+      "url": "https://play.google.com/store/apps/details?id=jp.pokemon.pokemontcgp"
+    }
+  ]
+}

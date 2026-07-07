@@ -1,0 +1,40 @@
+name: daily-briefing
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # 매일 00:00 UTC = 09:00 KST
+  workflow_dispatch: # 수동 실행 (Actions 탭에서 Run workflow)
+
+permissions:
+  contents: write # 스냅샷 커밋용
+
+concurrency:
+  group: daily-briefing
+  cancel-in-progress: false
+
+jobs:
+  briefing:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Run briefing
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: npm run briefing
+
+      - name: Commit snapshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || git commit -m "snapshot: $(TZ=Asia/Seoul date +%F)"
+          git push
