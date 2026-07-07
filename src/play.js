@@ -16,8 +16,8 @@ export async function fetchPlayChart(country, collection, category, limit) {
     id: app.appId,
     name: app.title,
     developer: app.developer,
-    releaseDate: null, // list API는 출시일 미제공
-    url: app.url,
+    icon: app.icon ?? null,
+    releaseDate: null, // list API는 출시일 미제공 — 신규 진입 앱만 상세 조회로 보강
   }));
 }
 
@@ -51,12 +51,13 @@ export async function collectPlay(config) {
       for (const cat of config.play.categories) {
         const key = `play:${country}:${chart.key}:${cat.key}`;
         try {
-          charts[key] = await withRetry(() => fetchPlayChart(country, chart.collection, cat.category, config.topN));
+          charts[key] = await withRetry(() => fetchPlayChart(country, chart.collection, cat.category, config.play.topN));
           console.log(`[play] ${key} — ${charts[key].length}개`);
         } catch (e) {
           console.error(`[play] ${key} 실패: ${e.message}`);
           charts[key] = null;
         }
+        await new Promise((r) => setTimeout(r, 300)); // 요청 간격 — 구글 레이트리밋 회피
       }
     }
   }

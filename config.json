@@ -1,20 +1,67 @@
 {
-  "topN": 50,
   "risingThreshold": 10,
   "newReleaseDays": 14,
+  "retentionDays": 60,
   "dashboardUrl": "https://pyungkanghong094.github.io/android-ios-rank/",
+  "briefingCategories": ["all", "game"],
   "countries": ["kr", "us"],
   "apple": {
+    "topN": 100,
     "charts": ["top-free", "top-paid"]
   },
+  "appleLegacy": {
+    "topN": 200,
+    "overallGrossing": true,
+    "charts": [
+      { "key": "top-free", "feed": "topfreeapplications" },
+      { "key": "top-grossing", "feed": "topgrossingapplications" }
+    ],
+    "genres": [
+      { "key": "game", "id": 6014 },
+      { "key": "game-action", "id": 7001 },
+      { "key": "game-adventure", "id": 7002 },
+      { "key": "game-casual", "id": 7003 },
+      { "key": "game-board", "id": 7004 },
+      { "key": "game-card", "id": 7005 },
+      { "key": "game-casino", "id": 7006 },
+      { "key": "game-family", "id": 7009 },
+      { "key": "game-music", "id": 7011 },
+      { "key": "game-puzzle", "id": 7012 },
+      { "key": "game-racing", "id": 7013 },
+      { "key": "game-rpg", "id": 7014 },
+      { "key": "game-simulation", "id": 7015 },
+      { "key": "game-sports", "id": 7016 },
+      { "key": "game-strategy", "id": 7017 },
+      { "key": "game-trivia", "id": 7018 },
+      { "key": "game-word", "id": 7019 }
+    ]
+  },
   "play": {
+    "topN": 200,
     "charts": [
       { "key": "top-free", "collection": "TOP_FREE" },
       { "key": "top-grossing", "collection": "GROSSING" }
     ],
     "categories": [
       { "key": "all", "category": "APPLICATION" },
-      { "key": "game", "category": "GAME" }
+      { "key": "game", "category": "GAME" },
+      { "key": "game-action", "category": "GAME_ACTION" },
+      { "key": "game-adventure", "category": "GAME_ADVENTURE" },
+      { "key": "game-arcade", "category": "GAME_ARCADE" },
+      { "key": "game-board", "category": "GAME_BOARD" },
+      { "key": "game-card", "category": "GAME_CARD" },
+      { "key": "game-casino", "category": "GAME_CASINO" },
+      { "key": "game-casual", "category": "GAME_CASUAL" },
+      { "key": "game-educational", "category": "GAME_EDUCATIONAL" },
+      { "key": "game-music", "category": "GAME_MUSIC" },
+      { "key": "game-puzzle", "category": "GAME_PUZZLE" },
+      { "key": "game-racing", "category": "GAME_RACING" },
+      { "key": "game-rpg", "category": "GAME_ROLE_PLAYING" },
+      { "key": "game-simulation", "category": "GAME_SIMULATION" },
+      { "key": "game-sports", "category": "GAME_SPORTS" },
+      { "key": "game-strategy", "category": "GAME_STRATEGY" },
+      { "key": "game-trivia", "category": "GAME_TRIVIA" },
+      { "key": "game-word", "category": "GAME_WORD" }
     ]
   }
 }

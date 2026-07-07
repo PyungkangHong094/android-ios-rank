@@ -1,7 +1,7 @@
-// 메인 파이프라인: 수집 → 스냅샷 저장 → 어제와 diff → 브리핑 → 텔레그램 발송
+// 메인 파이프라인: 수집 → 어제와 diff → 신규앱 출시일 보강 → 저장(정규화+보존기간 정리) → 브리핑 → 텔레그램 발송
 // 사용: node src/index.js [--dry-run]  (--dry-run: 발송 없이 콘솔 출력만)
 
-import { readFile, writeFile, readdir, mkdir } from 'node:fs/promises';
+import { readFile, writeFile, readdir, mkdir, unlink } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 import { collectApple } from './apple.js';
@@ -9,6 +9,7 @@ import { collectPlay, enrichPlayNewEntries } from './play.js';
 import { diffSnapshots } from './diff.js';
 import { buildBriefing } from './briefing.js';
 import { sendTelegram } from './telegram.js';
+import { compactSnapshot, mergeRegistry, expandSnapshot } from './storage.js';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DATA_DIR = path.join(ROOT, 'data');
@@ -18,16 +19,20 @@ function kstDateStr(ts) {
   return new Date(ts + KST_OFFSET).toISOString().slice(0, 10);
 }
 
-async function loadLatestSnapshot(beforeDate) {
-  let files;
+async function listSnapshotDates() {
   try {
-    files = (await readdir(DATA_DIR)).filter((f) => /^\d{4}-\d{2}-\d{2}\.json$/.test(f)).sort();
+    return (await readdir(DATA_DIR)).filter((f) => /^\d{4}-\d{2}-\d{2}\.json$/.test(f)).map((f) => f.slice(0, 10)).sort();
   } catch {
-    return null;
+    return [];
   }
-  const prev = files.filter((f) => f.slice(0, 10) < beforeDate).pop();
-  if (!prev) return null;
-  return JSON.parse(await readFile(path.join(DATA_DIR, prev), 'utf8'));
+}
+
+async function loadJSON(file, fallback = null) {
+  try {
+    return JSON.parse(await readFile(path.join(DATA_DIR, file), 'utf8'));
+  } catch {
+    return fallback;
+  }
 }
 
 const dryRun = process.argv.includes('--dry-run');
@@ -39,22 +44,40 @@ console.log(`== ${today} 수집 시작 ==`);
 const snapshot = { ...(await collectApple(config)), ...(await collectPlay(config)) };
 
 const collected = Object.values(snapshot).filter(Boolean).length;
+const total = Object.keys(snapshot).length;
+console.log(`수집: ${collected}/${total}개 차트 성공`);
 if (collected === 0) {
   console.error('모든 차트 수집 실패 — 스냅샷 저장 안 함');
   process.exit(1);
 }
 
-const yesterday = await loadLatestSnapshot(today);
+await mkdir(DATA_DIR, { recursive: true });
+const registry = (await loadJSON('apps.json', {})) ?? {};
+
+const prevDate = (await listSnapshotDates()).filter((d) => d < today).pop() ?? null;
+const yesterday = prevDate ? expandSnapshot(await loadJSON(`${prevDate}.json`), registry) : null;
 const diffs = diffSnapshots(snapshot, yesterday, config, now);
 await enrichPlayNewEntries(diffs, snapshot, { newReleaseDays: config.newReleaseDays, now });
 
-await mkdir(DATA_DIR, { recursive: true });
-await writeFile(path.join(DATA_DIR, `${today}.json`), JSON.stringify(snapshot, null, 2));
-const dates = (await readdir(DATA_DIR)).filter((f) => /^\d{4}-\d{2}-\d{2}\.json$/.test(f)).map((f) => f.slice(0, 10)).sort();
-await writeFile(path.join(DATA_DIR, 'index.json'), JSON.stringify(dates));
-console.log(`스냅샷 저장: data/${today}.json (${collected}개 차트)`);
+mergeRegistry(registry, snapshot);
+await writeFile(path.join(DATA_DIR, 'apps.json'), JSON.stringify(registry));
+await writeFile(path.join(DATA_DIR, `${today}.json`), JSON.stringify(compactSnapshot(snapshot)));
 
-const briefing = buildBriefing(diffs, today, { dashboardUrl: config.dashboardUrl });
+// 보존기간 지난 스냅샷 정리 (repo 비대화 방지)
+const cutoff = kstDateStr(now - config.retentionDays * 86400000);
+for (const d of await listSnapshotDates()) {
+  if (d < cutoff) {
+    await unlink(path.join(DATA_DIR, `${d}.json`));
+    console.log(`보존기간 경과 삭제: data/${d}.json`);
+  }
+}
+await writeFile(path.join(DATA_DIR, 'index.json'), JSON.stringify(await listSnapshotDates()));
+console.log(`스냅샷 저장: data/${today}.json (${collected}개 차트, 레지스트리 ${Object.keys(registry).length}개 앱)`);
+
+const briefing = buildBriefing(diffs, today, {
+  dashboardUrl: config.dashboardUrl,
+  briefingCategories: config.briefingCategories,
+});
 
 console.log('\n----- 브리핑 -----\n' + briefing + '\n------------------');
 

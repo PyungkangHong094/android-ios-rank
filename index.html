@@ -36,8 +36,6 @@
   input[type="search"] { flex: 1; min-width: 160px; }
   .navbtn { cursor: pointer; }
   .navbtn:disabled { opacity: 0.35; cursor: default; }
-  footer { margin-top: 32px; color: var(--muted); font-size: 12px; text-align: center; }
-  footer a { color: inherit; }
   .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin-bottom: 24px; }
   .tile { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 14px 16px; }
   .tile .num { font-size: 28px; font-weight: 700; font-variant-numeric: tabular-nums; }
@@ -50,11 +48,12 @@
   .sec-title { font-size: 12px; font-weight: 600; color: var(--ink-2); margin-bottom: 4px; }
   ul.apps { list-style: none; padding: 0; }
   ul.apps li {
-    display: flex; align-items: baseline; gap: 8px; padding: 3px 0;
+    display: flex; align-items: center; gap: 8px; padding: 3px 0;
     border-bottom: 1px solid var(--grid); font-size: 13.5px;
   }
   ul.apps li:last-child { border-bottom: 0; }
-  .rank { color: var(--muted); font-variant-numeric: tabular-nums; min-width: 34px; text-align: right; }
+  .rank { color: var(--muted); font-variant-numeric: tabular-nums; min-width: 34px; text-align: right; flex-shrink: 0; }
+  .appicon { width: 24px; height: 24px; border-radius: 6px; flex-shrink: 0; background: var(--grid); }
   .name { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
   .name a { color: inherit; text-decoration: none; }
   .name a:hover { text-decoration: underline; }
@@ -64,12 +63,21 @@
   .badge.new { color: var(--ink-2); }
   details { margin-top: 8px; }
   summary { cursor: pointer; color: var(--muted); font-size: 13px; user-select: none; }
-  table { width: 100%; border-collapse: collapse; margin-top: 8px; font-size: 13px; }
+  table { width: 100%; table-layout: fixed; border-collapse: collapse; margin-top: 8px; font-size: 13px; }
   th { text-align: left; color: var(--muted); font-weight: 500; padding: 4px 6px; border-bottom: 1px solid var(--grid); }
-  td { padding: 4px 6px; border-bottom: 1px solid var(--grid); }
+  th.rank-col, td.r { width: 44px; }
+  th.delta-col, td.dl { width: 64px; }
+  td { padding: 4px 6px; border-bottom: 1px solid var(--grid); overflow: hidden; }
   td.r { text-align: right; font-variant-numeric: tabular-nums; color: var(--ink-2); }
+  td.dl { text-align: right; }
+  td .cell { display: flex; align-items: center; gap: 8px; min-width: 0; }
+  td .cell span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  td a { color: inherit; text-decoration: none; }
+  td a:hover { text-decoration: underline; }
   .empty { color: var(--muted); font-size: 13px; }
   .note { color: var(--muted); font-size: 13px; margin-bottom: 16px; }
+  footer { margin-top: 32px; color: var(--muted); font-size: 12px; text-align: center; }
+  footer a { color: inherit; }
 </style>
 </head>
 <body>
@@ -92,6 +100,10 @@
       <option value="kr">🇰🇷 한국</option>
       <option value="us">🇺🇸 미국</option>
     </select>
+    <select id="catSel" aria-label="카테고리">
+      <option value="major">주요 (전체·게임)</option>
+      <option value="">모든 카테고리</option>
+    </select>
     <input type="search" id="searchBox" placeholder="🔍 앱 이름 검색" aria-label="앱 검색">
   </div>
   <div class="tiles" id="tiles"></div>
@@ -103,16 +115,49 @@
 const CHART_LABEL = { 'top-free': '무료', 'top-paid': '유료', 'top-grossing': '매출' };
 const STORE_LABEL = { apple: '🍎 앱스토어', play: '🤖 플레이' };
 const COUNTRY_LABEL = { kr: '🇰🇷', us: '🇺🇸' };
-const CAT_LABEL = { all: '전체', game: '게임' };
+const CAT_LABEL = {
+  all: '전체', game: '게임', 'game-action': '게임·액션', 'game-adventure': '게임·어드벤처',
+  'game-arcade': '게임·아케이드', 'game-board': '게임·보드', 'game-card': '게임·카드',
+  'game-casino': '게임·카지노', 'game-casual': '게임·캐주얼', 'game-educational': '게임·교육',
+  'game-family': '게임·패밀리', 'game-music': '게임·음악', 'game-puzzle': '게임·퍼즐',
+  'game-racing': '게임·레이싱', 'game-rpg': '게임·RPG', 'game-simulation': '게임·시뮬레이션',
+  'game-sports': '게임·스포츠', 'game-strategy': '게임·전략', 'game-trivia': '게임·퀴즈',
+  'game-word': '게임·단어',
+};
 
 const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const $ = (id) => document.getElementById(id);
 
-function chartTitle(key) {
+function parseKey(key) {
   const [store, country, chart, cat] = key.split(':');
-  const parts = [STORE_LABEL[store] ?? store, COUNTRY_LABEL[country] ?? country, CHART_LABEL[chart] ?? chart];
-  if (cat) parts.push(CAT_LABEL[cat] ?? cat);
-  return parts.join(' ');
+  return { store, country, chart, cat: cat ?? 'all' };
+}
+
+function chartTitle(key) {
+  const { store, country, chart, cat } = parseKey(key);
+  return [STORE_LABEL[store] ?? store, COUNTRY_LABEL[country] ?? country, CHART_LABEL[chart] ?? chart, CAT_LABEL[cat] ?? cat].join(' ');
+}
+
+function storeUrl(app, key) {
+  const { store, country } = parseKey(key);
+  if (app.url) return app.url; // 구버전 스냅샷 호환
+  return store === 'apple'
+    ? `https://apps.apple.com/${country}/app/id${app.id}`
+    : `https://play.google.com/store/apps/details?id=${app.id}&gl=${country}`;
+}
+
+function expandSnapshot(fileJson, registry) {
+  if (fileJson?._v !== 2) return fileJson;
+  const snapshot = {};
+  for (const [key, ids] of Object.entries(fileJson.charts)) {
+    snapshot[key] = ids
+      ? ids.map((id, i) => {
+          const m = registry[id] ?? {};
+          return { rank: i + 1, id, name: m.n ?? String(id), developer: m.d ?? '', icon: m.i ?? null, releaseDate: m.r ?? null };
+        })
+      : null;
+  }
+  return snapshot;
 }
 
 function diffChart(today, yesterday, threshold, nowTs) {
@@ -142,18 +187,31 @@ function badge(app) {
   return '<span class="badge new">–</span>';
 }
 
-function appLi(app) {
-  const link = app.url ? `<a href="${esc(app.url)}" target="_blank" rel="noopener">${esc(app.name)}</a>` : esc(app.name);
-  return `<li><span class="rank">${app.rank}위</span><span class="name">${link}</span>${badge(app)}</li>`;
+function iconImg(app) {
+  return app.icon ? `<img class="appicon" src="${esc(app.icon)}" alt="" loading="lazy" onerror="this.style.visibility='hidden'">` : '<span class="appicon"></span>';
 }
 
-function section(title, apps, max = 5) {
+function appLi(app, key) {
+  return `<li><span class="rank">${app.rank}위</span>${iconImg(app)}<span class="name"><a href="${esc(storeUrl(app, key))}" target="_blank" rel="noopener">${esc(app.name)}</a></span>${badge(app)}</li>`;
+}
+
+function section(title, apps, key, max = 5) {
   if (!apps.length) return '';
   const more = apps.length > max ? ` <span class="empty">외 ${apps.length - max}개</span>` : '';
-  return `<div class="sec"><div class="sec-title">${title} ${apps.length}개${more}</div><ul class="apps">${apps.slice(0, max).map(appLi).join('')}</ul></div>`;
+  return `<div class="sec"><div class="sec-title">${title} ${apps.length}개${more}</div><ul class="apps">${apps.slice(0, max).map((a) => appLi(a, key)).join('')}</ul></div>`;
 }
 
-let DATES = [], THRESHOLD = 10, NEW_DAYS = 14;
+let DATES = [], THRESHOLD = 10, NEW_DAYS = 14, REGISTRY = {};
+const TABLE_DATA = new Map(); // 지연 렌더링용 — 열 때만 테이블 생성 (150차트×200행 대응)
+
+function buildTable(key) {
+  const d = TABLE_DATA.get(key);
+  if (!d) return '';
+  return `<table>
+    <thead><tr><th class="rank-col" style="text-align:right">순위</th><th>앱</th><th class="delta-col" style="text-align:right">변동</th></tr></thead>
+    <tbody>${d.entries.map((a) => `<tr><td class="r">${a.rank}</td><td><div class="cell">${iconImg(a)}<span title="${esc(a.developer ?? '')}"><a href="${esc(storeUrl(a, key))}" target="_blank" rel="noopener">${esc(a.name)}</a></span></div></td><td class="dl">${badge(a)}</td></tr>`).join('')}</tbody>
+  </table>`;
+}
 
 async function fetchJSON(url) {
   const res = await fetch(url, { cache: 'no-store' });
@@ -165,6 +223,7 @@ async function render() {
   const date = $('dateSel').value;
   const storeF = $('storeSel').value;
   const countryF = $('countrySel').value;
+  const catF = $('catSel').value;
   const query = $('searchBox').value.trim().toLowerCase();
   const prevDate = DATES.filter((d) => d < date).pop() ?? null;
   const idx = DATES.indexOf(date);
@@ -172,17 +231,22 @@ async function render() {
   $('nextBtn').disabled = idx >= DATES.length - 1;
   $('compareNote').textContent = prevDate ? `${date} · 전일(${prevDate}) 대비` : `${date} · 비교할 전일 데이터 없음`;
 
-  const [snap, prevSnap] = await Promise.all([
+  const [snapRaw, prevRaw] = await Promise.all([
     fetchJSON(`data/${date}.json`),
     prevDate ? fetchJSON(`data/${prevDate}.json`).catch(() => null) : null,
   ]);
+  const snap = expandSnapshot(snapRaw, REGISTRY);
+  const prevSnap = prevRaw ? expandSnapshot(prevRaw, REGISTRY) : null;
 
   let totNew = 0, totUp = 0, totDown = 0;
   const cards = [];
+  TABLE_DATA.clear();
   for (const [key, chart] of Object.entries(snap)) {
-    const [store, country] = key.split(':');
+    const { store, country, cat } = parseKey(key);
     if (storeF && store !== storeF) continue;
     if (countryF && country !== countryF) continue;
+    if (catF === 'major' && cat !== 'all' && cat !== 'game') continue;
+    if (catF && catF !== 'major' && cat !== catF) continue;
     const d = diffChart(chart, prevSnap?.[key] ?? null, THRESHOLD, new Date(date).getTime() + 86400000);
     let body;
     if (d == null) {
@@ -192,14 +256,12 @@ async function render() {
       const matched = d.entries.filter((a) => a.name.toLowerCase().includes(query));
       totNew += d.newEntries.length; totUp += d.rising.length; totDown += d.falling.length;
       if (!matched.length) continue;
-      body = `<div class="sec"><div class="sec-title">🔍 검색 결과 ${matched.length}개</div><ul class="apps">${matched.slice(0, 20).map(appLi).join('')}</ul></div>`;
+      body = `<div class="sec"><div class="sec-title">🔍 검색 결과 ${matched.length}개</div><ul class="apps">${matched.slice(0, 20).map((a) => appLi(a, key)).join('')}</ul></div>`;
     } else {
       totNew += d.newEntries.length; totUp += d.rising.length; totDown += d.falling.length;
-      const secs = section('🆕 신규 진입', d.newEntries) + section('🚀 급등', d.rising) + section('📉 급락', d.falling);
-      const table = `<details><summary>Top ${d.entries.length} 전체 보기</summary><table>
-        <thead><tr><th style="text-align:right">순위</th><th>앱</th><th>개발사</th><th style="text-align:right">변동</th></tr></thead>
-        <tbody>${d.entries.map((a) => `<tr><td class="r">${a.rank}</td><td>${a.url ? `<a href="${esc(a.url)}" target="_blank" rel="noopener" style="color:inherit">${esc(a.name)}</a>` : esc(a.name)}</td><td class="r">${esc(a.developer ?? '')}</td><td class="r">${badge(a)}</td></tr>`).join('')}</tbody>
-      </table></details>`;
+      const secs = section('🆕 신규 진입', d.newEntries, key) + section('🚀 급등', d.rising, key) + section('📉 급락', d.falling, key);
+      TABLE_DATA.set(key, d);
+      const table = `<details data-key="${esc(key)}"><summary>Top ${d.entries.length} 전체 보기</summary><div class="tbl"></div></details>`;
       body = (secs || (d.hasBaseline ? '<div class="empty">특이 변동 없음 ✨</div>' : '<div class="empty">첫 수집 — 다음 날부터 변동 감지</div>')) + table;
     }
     cards.push(`<div class="card"><h2>${chartTitle(key)}</h2>${body}</div>`);
@@ -210,6 +272,26 @@ async function render() {
   ].map(([lbl, n]) => `<div class="tile"><div class="num">${n}</div><div class="lbl">${lbl} (${THRESHOLD}계단 기준)</div></div>`).join('');
   $('note').textContent = prevSnap ? '' : '전일 스냅샷이 없어 변동 감지 없이 순위만 표시합니다.';
   $('cards').innerHTML = cards.join('') || '<div class="empty">표시할 결과가 없습니다.</div>';
+
+  for (const det of document.querySelectorAll('details[data-key]')) {
+    det.addEventListener('toggle', () => {
+      const box = det.querySelector('.tbl');
+      if (det.open && box && !box.innerHTML) box.innerHTML = buildTable(det.dataset.key);
+    }, { once: false });
+  }
+}
+
+function populateCatFilter(snap) {
+  const cats = [...new Set(Object.keys(snap).map((k) => parseKey(k).cat))];
+  const order = Object.keys(CAT_LABEL);
+  cats.sort((a, b) => order.indexOf(a) - order.indexOf(b));
+  const sel = $('catSel');
+  for (const c of cats) {
+    const opt = document.createElement('option');
+    opt.value = c;
+    opt.textContent = CAT_LABEL[c] ?? c;
+    sel.appendChild(opt);
+  }
 }
 
 async function init() {
@@ -217,10 +299,13 @@ async function init() {
     const cfg = await fetchJSON('config.json').catch(() => null);
     if (cfg?.risingThreshold) THRESHOLD = cfg.risingThreshold;
     if (cfg?.newReleaseDays) NEW_DAYS = cfg.newReleaseDays;
+    REGISTRY = await fetchJSON('data/apps.json').catch(() => ({}));
     DATES = (await fetchJSON('data/index.json')).sort();
     $('dateSel').innerHTML = [...DATES].reverse().map((d) => `<option value="${d}">${d}</option>`).join('');
     $('dateSel').value = DATES[DATES.length - 1];
-    for (const id of ['dateSel', 'storeSel', 'countrySel']) $(id).addEventListener('change', render);
+    const latest = expandSnapshot(await fetchJSON(`data/${DATES[DATES.length - 1]}.json`), REGISTRY);
+    populateCatFilter(latest);
+    for (const id of ['dateSel', 'storeSel', 'countrySel', 'catSel']) $(id).addEventListener('change', render);
     let t;
     $('searchBox').addEventListener('input', () => { clearTimeout(t); t = setTimeout(render, 200); });
     const step = (dir) => {

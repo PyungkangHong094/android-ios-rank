@@ -25,11 +25,14 @@ function line(app) {
   return `  ${app.rank}위 ${app.name}${fresh}`;
 }
 
-export function buildBriefing(diffs, dateStr, { maxPerSection = 5, dashboardUrl = null } = {}) {
+export function buildBriefing(diffs, dateStr, { maxPerSection = 5, dashboardUrl = null, briefingCategories = null } = {}) {
   const out = [`📊 앱마켓 데일리 브리핑 — ${dateStr}`];
   let hasSignal = false;
 
   for (const [key, d] of Object.entries(diffs)) {
+    // 하위 카테고리는 대시보드 전용 — 텔레그램은 주요 카테고리만 (안 그러면 150개 차트가 다 옴)
+    const cat = key.split(':')[3] ?? 'all';
+    if (briefingCategories && !briefingCategories.includes(cat)) continue;
     if (d == null) {
       out.push(`\n${chartTitle(key)}\n  ⚠️ 수집 실패 (다음 실행에서 재시도)`);
       continue;
