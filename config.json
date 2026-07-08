@@ -1,5 +1,7 @@
 {
   "risingThreshold": 10,
+  "dropoutTopN": 20,
+  "momentum": { "minRises": 2, "minTotalRise": 15, "maxRank": 100 },
   "newReleaseDays": 14,
   "retentionDays": 60,
   "dashboardUrl": "https://pyungkanghong094.github.io/android-ios-rank/",

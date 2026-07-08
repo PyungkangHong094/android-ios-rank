@@ -10,6 +10,7 @@ import { diffSnapshots } from './diff.js';
 import { buildBriefing } from './briefing.js';
 import { sendTelegram } from './telegram.js';
 import { compactSnapshot, mergeRegistry, expandSnapshot } from './storage.js';
+import { findCrossMarketSurges, findMomentumAll } from './signals.js';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DATA_DIR = path.join(ROOT, 'data');
@@ -74,9 +75,19 @@ for (const d of await listSnapshotDates()) {
 await writeFile(path.join(DATA_DIR, 'index.json'), JSON.stringify(await listSnapshotDates()));
 console.log(`스냅샷 저장: data/${today}.json (${collected}개 차트, 레지스트리 ${Object.keys(registry).length}개 앱)`);
 
+// 고급 신호: 크로스 마켓 급등 + 연속 상승 모멘텀 (모멘텀은 스냅샷이 minRises+1개 쌓이면 자동 활성화)
+const crossMarket = findCrossMarketSurges(diffs);
+const histDates = (await listSnapshotDates()).filter((d) => d < today).slice(-config.momentum.minRises);
+const history = [];
+for (const d of histDates) history.push(expandSnapshot(await loadJSON(`${d}.json`), registry));
+const momentums = findMomentumAll([...history, snapshot], config.momentum);
+console.log(`신호: 크로스마켓 ${crossMarket.length}개, 모멘텀 차트 ${Object.keys(momentums).length}개 (히스토리 ${history.length + 1}일)`);
+
 const briefing = buildBriefing(diffs, today, {
   dashboardUrl: config.dashboardUrl,
   briefingCategories: config.briefingCategories,
+  crossMarket,
+  momentums,
 });
 
 console.log('\n----- 브리핑 -----\n' + briefing + '\n------------------');
