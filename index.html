@@ -40,12 +40,15 @@
   .tile { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 14px 16px; }
   .tile .num { font-size: 28px; font-weight: 700; font-variant-numeric: tabular-nums; }
   .tile .lbl { color: var(--ink-2); font-size: 13px; }
-  .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 16px; }
+  .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 460px), 1fr)); gap: 16px; }
   .card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 16px; }
   .card.wide { grid-column: 1 / -1; }
   .card h2 { font-size: 15px; font-weight: 700; margin-bottom: 10px; }
   .card .fail { color: var(--muted); font-size: 13px; }
   .sec { margin-bottom: 10px; }
+  .duo { display: grid; grid-template-columns: 1fr 1fr; gap: 0 14px; }
+  .duo .sec { min-width: 0; }
+  @media (max-width: 520px) { .duo { grid-template-columns: 1fr; } }
   .sec-title { font-size: 12px; font-weight: 600; color: var(--ink-2); margin-bottom: 4px; }
   ul.apps { list-style: none; padding: 0; }
   ul.apps li {
@@ -332,8 +335,12 @@ async function render() {
     } else {
       totNew += d.newEntries.length; totUp += d.rising.length; totDown += d.falling.length; totOut += d.dropouts.length;
       const momentum = hist.length ? findMomentum([...hist.map((h) => h?.[key] ?? null), chart]) : [];
-      const secs = section('🆕 신규 진입', d.newEntries, key) + section('🚀 급등', d.rising, key)
-        + section('📈 연속 상승', momentum, key) + section('📉 급락', d.falling, key)
+      // 급등·급락은 양옆 2열 배치 (둘 다 있을 때만 — 하나뿐이면 전체 폭 사용)
+      const up = section('🚀 급등', d.rising, key);
+      const down = section('📉 급락', d.falling, key);
+      const duo = up && down ? `<div class="duo">${up}${down}</div>` : up + down;
+      const secs = section('🆕 신규 진입', d.newEntries, key) + duo
+        + section('📈 연속 상승', momentum, key)
         + section('💨 차트 아웃', d.dropouts, key);
       TABLE_DATA.set(key, d);
       const table = `<details data-key="${esc(key)}"><summary>Top ${d.entries.length} 전체 보기</summary><div class="tbl"></div></details>`;
